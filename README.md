@@ -76,3 +76,33 @@ python render_sequence_video.py --kitti_root "$KITTI_ROOT/training" --pred_dir "
 ## 3. 其他文件
 
 - `docs/IMPROVEMENT_PLAN.md`：改善計畫
+
+---
+
+## 5. 完成後：同步回 GitHub（必做）
+
+每完成一項任務就同步一次，讓本機（決賽簡報製作端）能直接取用：
+
+```bash
+git pull
+mkdir -p results
+# 1) 結果檔放在 results/；單檔 > 95 MB 的影片請改傳雲端並在 RESULTS.md 寫連結
+git add results/ -f
+# 2) 更新 RESULTS.md：每項任務一節，寫「指令、資料路徑、數值結果（表格）、檔案清單、遇到的問題」
+# 3) 更新 docs/IMPROVEMENT_PLAN.md：完成的項目把 🔄/⬜ 改為 ✅，並在該列補一句結果
+git add RESULTS.md docs/IMPROVEMENT_PLAN.md
+git commit -m "lab results: <任務代號與一句摘要>"
+git push
+```
+
+`RESULTS.md` 範本：
+
+```markdown
+## 任務 B｜表 8（測試距離 1.2–6.7 m）
+- 執行日期／電腦：
+- 指令：
+- 資料路徑：
+- 結果：（貼 CSV 表格）
+- 檔案：results/table8_testdist.csv
+- 備註：
+```
