@@ -1,5 +1,8 @@
 # GEMO3D 決賽補充實驗（實驗室伺服器執行用）
 
+> **2026-11-15 更新：下一階段實驗清單（審查建議整理、依優先順序）見 [docs/NEXT_EXPERIMENTS.md](docs/NEXT_EXPERIMENTS.md)，請優先執行。**
+
+
 ## 最新成果與 AI 協作入口
 
 - [實驗結果與雲端上傳紀錄](RESULTS.md)
