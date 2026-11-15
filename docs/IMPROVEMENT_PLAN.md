@@ -7,7 +7,7 @@
 
 | # | 項目 | 說明 | 狀態 |
 |---|---|---|---|
-| A1 | 真實資料集 | 加入 KITTI（首選）、nuScenes、Waymo、Rope3D；目前僅 CARLA | 🔄 決賽任務 B（KITTI demo） |
+| A1 | 真實資料集 | 加入 KITTI（首選）、nuScenes、Waymo、Rope3D；目前僅 CARLA | 🔄 已產出 30 張 KITTI 非連續樣本展示；深度 MAE 18.67 m，連續序列及正式驗證仍待完成 |
 | A2 | 領域標準指標 | AP3D、APBEV，依 Easy／Moderate／Hard 分組；自訂 center error 降為輔助 | ⬜ |
 | A3 | 完整消融實驗 | 逐一拆解車型尺寸先驗、Rank-1 補償、道路平面約束、投影一致性修正 | ⬜ |
 | A4 | 擴充比較基準 | 加入 MonoFlex、GUPNet 等近年方法 | ⬜ |
@@ -28,8 +28,8 @@
 
 | # | 項目 | 狀態 |
 |---|---|---|
-| C1 | CARLA 連續序列 demo 影片（3D 框＋鳥瞰圖） | 🔄 任務 A |
-| C2 | 高解析度中英文架構圖（≥ 4000 px） | 🔄 任務 C |
+| C1 | CARLA 連續序列 demo 影片（3D 框＋鳥瞰圖） | ✅ 199 張、19.9 秒 H.264；歷史 CARLA 預測，配對深度 MAE 0.267 m |
+| C2 | 高解析度中英文架構圖（≥ 4000 px） | 本次跳過：使用者確認已有，未重新驗證 |
 | C3 | 邊緣裝置（Jetson Orin Nano）推論時間、參數量、記憶體 | ⬜ |
 | C4 | 網站結果表與 CSV 小數第二位差異之統一（網站以論文表為準，CSV 為全精度重算） | ⬜ |
 
@@ -38,3 +38,7 @@
 - 主軸由「與 SOTA 拼精度」轉為「低算力、物理可解釋、工程部署友善之幾何補償方法」。
 - 目標期刊（AI 建議彙整）：Engineering Applications of Artificial Intelligence、Expert Systems with Applications。
 - 文獻由 15 篇擴充至 40–60 篇；公開程式碼以符合重現性要求。
+
+## 2026-11-15 實驗室回報
+
+RTX 3060 100 張計時：暖機後流程平均 153.56 ms（6.51 FPS），含初始化與暖機整次 27.69 s。此非 Jetson 結果，C3 維持待辦。完整來源、限制與數值見 [RESULTS.md](../RESULTS.md)。

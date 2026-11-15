@@ -1,0 +1,500 @@
+{
+  "frames": 30,
+  "fps": 1,
+  "duration_s": 30.0,
+  "first_frame": "000001",
+  "last_frame": "000061",
+  "kitti_root": "/home/e114/KITTI_ROOT/training",
+  "pred_dir": "/home/e114/eval_kitti/build/results/kitti/unknown_hwl/pred/data",
+  "predictions": 121,
+  "ground_truth": 99,
+  "matched_objects": 75,
+  "matching": "class-aware greedy one-to-one 2D IoU >= 0.5; visualization only, not AP",
+  "depth_mae_m": 18.672399999999996,
+  "depth_rmse_m": 26.542383540292686,
+  "codec": "h264",
+  "frame_ids": [
+    "000001",
+    "000002",
+    "000004",
+    "000005",
+    "000006",
+    "000008",
+    "000015",
+    "000019",
+    "000020",
+    "000021",
+    "000023",
+    "000024",
+    "000025",
+    "000027",
+    "000028",
+    "000031",
+    "000033",
+    "000035",
+    "000037",
+    "000039",
+    "000040",
+    "000042",
+    "000047",
+    "000048",
+    "000050",
+    "000052",
+    "000053",
+    "000058",
+    "000059",
+    "000061"
+  ],
+  "matched_depths": [
+    {
+      "frame_id": "000001",
+      "pred_z": 79.76,
+      "gt_z": 58.49,
+      "depth_error_m": 21.270000000000003
+    },
+    {
+      "frame_id": "000002",
+      "pred_z": 66.24,
+      "gt_z": 34.38,
+      "depth_error_m": 31.859999999999992
+    },
+    {
+      "frame_id": "000004",
+      "pred_z": 45.73,
+      "gt_z": 38.26,
+      "depth_error_m": 7.469999999999999
+    },
+    {
+      "frame_id": "000004",
+      "pred_z": 67.46,
+      "gt_z": 51.17,
+      "depth_error_m": 16.289999999999992
+    },
+    {
+      "frame_id": "000006",
+      "pred_z": 19.13,
+      "gt_z": 19.72,
+      "depth_error_m": -0.5899999999999999
+    },
+    {
+      "frame_id": "000006",
+      "pred_z": 38.22,
+      "gt_z": 31.73,
+      "depth_error_m": 6.489999999999998
+    },
+    {
+      "frame_id": "000006",
+      "pred_z": 47.18,
+      "gt_z": 38.44,
+      "depth_error_m": 8.740000000000002
+    },
+    {
+      "frame_id": "000008",
+      "pred_z": 9.59,
+      "gt_z": 7.86,
+      "depth_error_m": 1.7299999999999995
+    },
+    {
+      "frame_id": "000008",
+      "pred_z": 9.35,
+      "gt_z": 6.15,
+      "depth_error_m": 3.1999999999999993
+    },
+    {
+      "frame_id": "000008",
+      "pred_z": 7.06,
+      "gt_z": 3.68,
+      "depth_error_m": 3.3799999999999994
+    },
+    {
+      "frame_id": "000008",
+      "pred_z": 21.2,
+      "gt_z": 14.44,
+      "depth_error_m": 6.76
+    },
+    {
+      "frame_id": "000008",
+      "pred_z": 27.31,
+      "gt_z": 19.96,
+      "depth_error_m": 7.349999999999998
+    },
+    {
+      "frame_id": "000008",
+      "pred_z": 54.33,
+      "gt_z": 33.2,
+      "depth_error_m": 21.129999999999995
+    },
+    {
+      "frame_id": "000015",
+      "pred_z": 8.51,
+      "gt_z": 4.1,
+      "depth_error_m": 4.41
+    },
+    {
+      "frame_id": "000019",
+      "pred_z": 13.96,
+      "gt_z": 9.72,
+      "depth_error_m": 4.24
+    },
+    {
+      "frame_id": "000019",
+      "pred_z": 89.26,
+      "gt_z": 59.59,
+      "depth_error_m": 29.67
+    },
+    {
+      "frame_id": "000020",
+      "pred_z": 24.09,
+      "gt_z": 15.58,
+      "depth_error_m": 8.51
+    },
+    {
+      "frame_id": "000021",
+      "pred_z": 17.81,
+      "gt_z": 13.3,
+      "depth_error_m": 4.509999999999998
+    },
+    {
+      "frame_id": "000021",
+      "pred_z": 33.0,
+      "gt_z": 17.6,
+      "depth_error_m": 15.399999999999999
+    },
+    {
+      "frame_id": "000021",
+      "pred_z": 59.69,
+      "gt_z": 26.83,
+      "depth_error_m": 32.86
+    },
+    {
+      "frame_id": "000021",
+      "pred_z": 41.02,
+      "gt_z": 25.97,
+      "depth_error_m": 15.050000000000004
+    },
+    {
+      "frame_id": "000021",
+      "pred_z": 54.85,
+      "gt_z": 32.13,
+      "depth_error_m": 22.72
+    },
+    {
+      "frame_id": "000021",
+      "pred_z": 50.39,
+      "gt_z": 31.78,
+      "depth_error_m": 18.61
+    },
+    {
+      "frame_id": "000023",
+      "pred_z": 81.65,
+      "gt_z": 55.08,
+      "depth_error_m": 26.570000000000007
+    },
+    {
+      "frame_id": "000024",
+      "pred_z": 53.06,
+      "gt_z": 36.37,
+      "depth_error_m": 16.690000000000005
+    },
+    {
+      "frame_id": "000024",
+      "pred_z": 62.93,
+      "gt_z": 38.09,
+      "depth_error_m": 24.839999999999996
+    },
+    {
+      "frame_id": "000025",
+      "pred_z": 8.97,
+      "gt_z": 3.14,
+      "depth_error_m": 5.83
+    },
+    {
+      "frame_id": "000025",
+      "pred_z": 21.27,
+      "gt_z": 17.48,
+      "depth_error_m": 3.789999999999999
+    },
+    {
+      "frame_id": "000025",
+      "pred_z": 14.01,
+      "gt_z": 10.42,
+      "depth_error_m": 3.59
+    },
+    {
+      "frame_id": "000025",
+      "pred_z": 50.31,
+      "gt_z": 30.18,
+      "depth_error_m": 20.130000000000003
+    },
+    {
+      "frame_id": "000027",
+      "pred_z": 135.71,
+      "gt_z": 73.46,
+      "depth_error_m": 62.250000000000014
+    },
+    {
+      "frame_id": "000031",
+      "pred_z": 10.37,
+      "gt_z": 8.46,
+      "depth_error_m": 1.9099999999999984
+    },
+    {
+      "frame_id": "000031",
+      "pred_z": 20.52,
+      "gt_z": 13.14,
+      "depth_error_m": 7.379999999999999
+    },
+    {
+      "frame_id": "000031",
+      "pred_z": 16.97,
+      "gt_z": 12.2,
+      "depth_error_m": 4.77
+    },
+    {
+      "frame_id": "000031",
+      "pred_z": 44.38,
+      "gt_z": 26.41,
+      "depth_error_m": 17.970000000000002
+    },
+    {
+      "frame_id": "000033",
+      "pred_z": 13.39,
+      "gt_z": 10.15,
+      "depth_error_m": 3.24
+    },
+    {
+      "frame_id": "000035",
+      "pred_z": 26.55,
+      "gt_z": 16.31,
+      "depth_error_m": 10.240000000000002
+    },
+    {
+      "frame_id": "000035",
+      "pred_z": 33.64,
+      "gt_z": 27.71,
+      "depth_error_m": 5.93
+    },
+    {
+      "frame_id": "000035",
+      "pred_z": 83.02,
+      "gt_z": 46.7,
+      "depth_error_m": 36.31999999999999
+    },
+    {
+      "frame_id": "000037",
+      "pred_z": 31.87,
+      "gt_z": 19.43,
+      "depth_error_m": 12.440000000000001
+    },
+    {
+      "frame_id": "000039",
+      "pred_z": 8.7,
+      "gt_z": 7.17,
+      "depth_error_m": 1.5299999999999994
+    },
+    {
+      "frame_id": "000039",
+      "pred_z": 24.99,
+      "gt_z": 16.67,
+      "depth_error_m": 8.319999999999997
+    },
+    {
+      "frame_id": "000039",
+      "pred_z": 61.94,
+      "gt_z": 33.82,
+      "depth_error_m": 28.119999999999997
+    },
+    {
+      "frame_id": "000039",
+      "pred_z": 55.58,
+      "gt_z": 29.48,
+      "depth_error_m": 26.099999999999998
+    },
+    {
+      "frame_id": "000039",
+      "pred_z": 125.19,
+      "gt_z": 49.29,
+      "depth_error_m": 75.9
+    },
+    {
+      "frame_id": "000039",
+      "pred_z": 135.34,
+      "gt_z": 48.95,
+      "depth_error_m": 86.39
+    },
+    {
+      "frame_id": "000040",
+      "pred_z": 55.55,
+      "gt_z": 35.37,
+      "depth_error_m": 20.18
+    },
+    {
+      "frame_id": "000042",
+      "pred_z": 77.25,
+      "gt_z": 44.49,
+      "depth_error_m": 32.76
+    },
+    {
+      "frame_id": "000047",
+      "pred_z": 17.01,
+      "gt_z": 10.68,
+      "depth_error_m": 6.330000000000002
+    },
+    {
+      "frame_id": "000047",
+      "pred_z": 44.01,
+      "gt_z": 26.54,
+      "depth_error_m": 17.47
+    },
+    {
+      "frame_id": "000047",
+      "pred_z": 14.43,
+      "gt_z": 12.25,
+      "depth_error_m": 2.1799999999999997
+    },
+    {
+      "frame_id": "000047",
+      "pred_z": 43.2,
+      "gt_z": 25.13,
+      "depth_error_m": 18.070000000000004
+    },
+    {
+      "frame_id": "000047",
+      "pred_z": 128.0,
+      "gt_z": 47.7,
+      "depth_error_m": 80.3
+    },
+    {
+      "frame_id": "000050",
+      "pred_z": 10.11,
+      "gt_z": 2.39,
+      "depth_error_m": 7.719999999999999
+    },
+    {
+      "frame_id": "000050",
+      "pred_z": 13.87,
+      "gt_z": 9.79,
+      "depth_error_m": 4.08
+    },
+    {
+      "frame_id": "000050",
+      "pred_z": 23.32,
+      "gt_z": 14.75,
+      "depth_error_m": 8.57
+    },
+    {
+      "frame_id": "000050",
+      "pred_z": 53.35,
+      "gt_z": 31.72,
+      "depth_error_m": 21.630000000000003
+    },
+    {
+      "frame_id": "000052",
+      "pred_z": 23.28,
+      "gt_z": 17.46,
+      "depth_error_m": 5.82
+    },
+    {
+      "frame_id": "000052",
+      "pred_z": 30.96,
+      "gt_z": 19.62,
+      "depth_error_m": 11.34
+    },
+    {
+      "frame_id": "000052",
+      "pred_z": 40.19,
+      "gt_z": 21.12,
+      "depth_error_m": 19.069999999999997
+    },
+    {
+      "frame_id": "000052",
+      "pred_z": 106.11,
+      "gt_z": 54.19,
+      "depth_error_m": 51.92
+    },
+    {
+      "frame_id": "000052",
+      "pred_z": 27.38,
+      "gt_z": 32.97,
+      "depth_error_m": -5.59
+    },
+    {
+      "frame_id": "000053",
+      "pred_z": 11.57,
+      "gt_z": 8.15,
+      "depth_error_m": 3.42
+    },
+    {
+      "frame_id": "000053",
+      "pred_z": 22.09,
+      "gt_z": 14.21,
+      "depth_error_m": 7.879999999999999
+    },
+    {
+      "frame_id": "000053",
+      "pred_z": 34.81,
+      "gt_z": 20.88,
+      "depth_error_m": 13.930000000000003
+    },
+    {
+      "frame_id": "000053",
+      "pred_z": 52.09,
+      "gt_z": 28.91,
+      "depth_error_m": 23.180000000000003
+    },
+    {
+      "frame_id": "000053",
+      "pred_z": 47.06,
+      "gt_z": 29.57,
+      "depth_error_m": 17.490000000000002
+    },
+    {
+      "frame_id": "000053",
+      "pred_z": 100.46,
+      "gt_z": 38.08,
+      "depth_error_m": 62.379999999999995
+    },
+    {
+      "frame_id": "000059",
+      "pred_z": 24.48,
+      "gt_z": 21.41,
+      "depth_error_m": 3.0700000000000003
+    },
+    {
+      "frame_id": "000059",
+      "pred_z": 49.84,
+      "gt_z": 30.01,
+      "depth_error_m": 19.830000000000002
+    },
+    {
+      "frame_id": "000059",
+      "pred_z": 68.29,
+      "gt_z": 41.7,
+      "depth_error_m": 26.590000000000003
+    },
+    {
+      "frame_id": "000059",
+      "pred_z": 31.95,
+      "gt_z": 23.51,
+      "depth_error_m": 8.439999999999998
+    },
+    {
+      "frame_id": "000061",
+      "pred_z": 70.43,
+      "gt_z": 10.93,
+      "depth_error_m": 59.50000000000001
+    },
+    {
+      "frame_id": "000061",
+      "pred_z": 35.0,
+      "gt_z": 16.63,
+      "depth_error_m": 18.37
+    },
+    {
+      "frame_id": "000061",
+      "pred_z": 74.04,
+      "gt_z": 33.21,
+      "depth_error_m": 40.830000000000005
+    }
+  ]
+}
