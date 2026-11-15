@@ -71,3 +71,20 @@
 - `results/predictions/` 保存影片使用的預測檔；`results/input_manifest.json` 保存影像、標註、校正、預測及計時權重的來源與 SHA-256。
 - 本機回傳包：`/home/e114/Desktop/gemo3d_results_2026-11-15.zip`（results、程式、測試、報告、改善計畫）。原始資料集與模型權重不重複打包。
 - 影片均小於 95 MB，依 README 同步 GitHub。依賴：Python、numpy、opencv-python、Pillow、imageio-ffmpeg；Linux Noto CJK 字型。
+
+
+## 雲端上傳與協作紀錄｜2026-11-15 08:34（Asia/Taipei）
+
+依使用者要求，已將原成果壓縮檔上傳至 Google Drive：
+
+- [成果壓縮檔下載](https://drive.google.com/file/d/1pZv85YbiBR9JTaJ24XN0BopSRfpYNidn/view?usp=drivesdk)
+- [GEMO3D-finals 雲端資料夾](https://drive.google.com/drive/folders/1KhSc-MnMtK0IDHQUKcLMGUAKOs2ynonz)
+- 檔名：`gemo3d_results_2026-11-15.zip`；大小：8,090,793 bytes。
+- 本機 SHA-256：`8057ca05403736d9a26068f0df2306b3a7dce050c899f6859ef21d3f96d3c5b8`。
+- 對應成果 commit：`fdec776f629e9d41ac55d1b197cf0eb8817d1d80`。
+- 上傳成功後已透過 Drive metadata 回讀核對檔名、大小及父資料夾；連接器未回傳 checksum，未宣稱完成雲端逐位元校驗。下載後可用上述 SHA-256 驗證。
+- 權限：私人／擁有者存取。GitHub 上的連結不代表公開下載；其他 AI 需使用已獲授權的 Drive 連線。此次未擴大分享權限。
+- 原 ZIP 作為不可變更的實驗快照保留，內含原始實驗報告；本次上傳紀錄與後續協作文件以 GitHub 最新版本為準，不在原 ZIP 內。
+- 機器可讀紀錄：`results/cloud_upload_2026-11-15.json`。
+
+新增 `AGENTS.md` 與 `docs/HANDOFF.md`，記錄使用者的持續協作要求：每次實質修改、實驗、雲端交付或狀態變更，完成驗證後同步更新 GitHub 說明與交接，不只在聊天中回報。這是每次工作時的協作規則，不是背景輪詢服務。

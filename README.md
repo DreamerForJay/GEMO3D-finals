@@ -1,5 +1,14 @@
 # GEMO3D 決賽補充實驗（實驗室伺服器執行用）
 
+## 最新成果與 AI 協作入口
+
+- [實驗結果與雲端上傳紀錄](RESULTS.md)
+- [成果壓縮檔（Google Drive，需要授權）](https://drive.google.com/file/d/1pZv85YbiBR9JTaJ24XN0BopSRfpYNidn/view?usp=drivesdk)
+- [AI 工作規則](AGENTS.md) · [目前狀態與待辦交接](docs/HANDOFF.md)
+
+2026-11-15：A 完成 CARLA 連續影片；B 僅完成 KITTI 非連續樣本展示；C 依使用者要求跳過；D 已有 RTX 3060 計時。詳細限制以 RESULTS.md 為準。每次實質更動後須更新結果與交接文件並同步 GitHub。
+
+
 > 給實驗室電腦上的 AI／同學：GEMO3D 程式本體在 <https://github.com/DreamerForJay/GEMO3D>（安裝與推論參數見該 repo 之 README）。
 > 本 repo 只放**決賽需要的補充任務**與繪圖腳本。請依〈任務清單〉執行，完成後依〈回傳清單〉把 `results/` 打包傳回。
 

@@ -1,0 +1,19 @@
+{
+  "uploaded_at": "2026-11-15T08:34:44+08:00",
+  "provider": "Google Drive",
+  "file_name": "gemo3d_results_2026-11-15.zip",
+  "file_id": "1pZv85YbiBR9JTaJ24XN0BopSRfpYNidn",
+  "url": "https://drive.google.com/file/d/1pZv85YbiBR9JTaJ24XN0BopSRfpYNidn/view?usp=drivesdk",
+  "folder_url": "https://drive.google.com/drive/folders/1KhSc-MnMtK0IDHQUKcLMGUAKOs2ynonz",
+  "local_path": "/home/e114/Desktop/gemo3d_results_2026-11-15.zip",
+  "size_bytes": 8090793,
+  "local_sha256": "8057ca05403736d9a26068f0df2306b3a7dce050c899f6859ef21d3f96d3c5b8",
+  "results_commit": "fdec776f629e9d41ac55d1b197cf0eb8817d1d80",
+  "verification": {
+    "upload_success": true,
+    "remote_name_and_size_verified": true,
+    "remote_checksum_verified": false
+  },
+  "sharing": "private; owner only at upload verification; connected agents need owner-account authorization",
+  "snapshot_note": "Original experiment package; later cloud-upload and collaboration documentation is maintained in GitHub, not inside this immutable ZIP."
+}
