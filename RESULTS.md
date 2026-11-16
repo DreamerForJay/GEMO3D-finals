@@ -50,7 +50,7 @@
 ## 任務 D｜RTX 3060 計時：完成，範圍如下
 
 - 本機 GEMO3D commit：`3dd8e9a404d425ebee8bad40040659ddcdc64757`；PyTorch 2.6.0+cu124；GPU NVIDIA GeForce RTX 3060（12 GB）。GPU 為共享環境，未宣稱獨占或跨硬體可比。
-- 100 張：同一 Lincoln CARLA 序列 000000–000099；固定尺寸 1.511,2.128,4.902 m。YOLO11n、EgoNet、sed_rank_ratio_linear_model.pkl、1280、FP16、投影回饋 3 次、tightfit max_nfev=15 / k=50。完整參數、權重路徑與 SHA-256 見 `results/reproduce_timing.sh`、`results/timing.json`、`results/input_manifest.json`。
+- 100 張：同一 Lincoln CARLA 序列 000000–000099；CLI 指定尺寸 1.511,2.128,4.902 m；2026-11-16 查核發現實際建框被 sedan 映射覆蓋為 1.52,1.64,3.86 m，深度高度參數仍為 1.511 m。YOLO11n、EgoNet、sed_rank_ratio_linear_model.pkl、1280、FP16、投影回饋 3 次、tightfit max_nfev=15 / k=50。完整參數、權重路徑與 SHA-256 見 `results/reproduce_timing.sh`、`results/timing.json`、`results/input_manifest.json`。
 - 相同第一張影像暖機 5 次，接著量測 100 張，每張 CUDA synchronize。量測包含讀圖、YOLO、EgoNet、補償、投影修正、tightfit、預測檔寫入；不含模型初始化、calib 讀取、最終 metadata CSV 寫入。另記錄涵蓋上述全部步驟及暖機的整次 wall time。
 
 | 計時範圍 | 結果 |
@@ -97,3 +97,17 @@
 本機 GUI 已修正 Matplotlib 中文字體（缺字警告 13 種→0）、補上舊統計來源提示，並將空值顯示為缺值。2 項顯示測試、AST 與 headless 圖形檢查通過；原始資料／歷史報告不改動。使用者實際指出的特定畫面尚待定位，因此僅宣稱已修正上述可重現問題。
 
 完整數值、圖表、修補檔與來源雜湊已保留在研究主機本機查核包。新附件的雲端上傳遭自動審核拒絕（先前授權被判定僅涵蓋原成果包），等待使用者確認；本次 GitHub 僅同步文字摘要，未發布附件。新增 issues #1–#8 已閱讀，摘要見 [issue 檢視紀錄](docs/ISSUE_REVIEW_2026-11-16.md)；未留言、關閉或標記尚未完成的實驗。
+
+
+## Issue #1／N3 公式實測與 #2 計時前檢查｜2026-11-16
+
+新增 [公式查核](results/formula_check.md)、[全精度與來源 SHA-256](results/formula_check.json)、[三張新推論 metadata](results/formula_pred_meta.csv)、[重跑命令](results/reproduce_formula.sh)、`check_formula.py`。使用 RTX3060 共享 GPU，以既有可追溯模型另跑近10／中20／遠30m；非沿用歷史未核實推論。
+
+- 實際 P2：fy=721.5377px、cy=172.854px，影像1242×375。
+- GT 深度10.082185／19.974687／29.957689m；最終深度10.286146／19.976911／29.924770m；僅三個公式示例，不宣稱整體精度。
+- 重新插值模型比例並驗證 Zraw=fy×1.511/h2D、Zcorr=Zraw×r=Zraw−comp_final，三筆誤差均小於1e-9。
+- 固定模式的深度高度取height_m，不等於pred_h。歷史100張metadata也證實實際建框為sedan預設1.52,1.64,3.86；已更正上述任務D文字，保留原實驗資料。
+- 推論端底部中心與幾何中心只差y的h/2，Z相同；建模端訓練腳本未找到，因此issue #1／N3仍有訓練定義待核實，未關閉。
+- #2 GPU檢查有CARLA行程，利用率97%，不符合獨佔條件；[計時待辦與環境紀錄](results/timing_breakdown.md)。未量測數據填「—」，未宣稱論文31.12FPS已重現。
+
+驗證：新推論3/3成功；每張1預測、1GT且2D IoU≥0.5；公式assertions通過。未改模型核心、未覆寫舊影片／推論。此次成果屬issue #1指定公開回報；先前PitchLab待核准附件仍未發布或上傳。

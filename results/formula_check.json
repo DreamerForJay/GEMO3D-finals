@@ -1,0 +1,133 @@
+{
+  "rows": [
+    {
+      "frame": "000170",
+      "fy": 721.5377,
+      "cy": 172.854,
+      "H_used": 1.511,
+      "h_2D": 126.98963928222656,
+      "Z_raw": 8.585294602475416,
+      "r_hat": 1.1981122296630997,
+      "Z_corr": 10.286146458486396,
+      "Z_final": 10.286146458486396,
+      "GT_z": 10.082185,
+      "corr_signed_error": 0.20396145848639513,
+      "final_signed_error": 0.20396145848639513,
+      "pred_h": 1.52,
+      "pred_w": 1.64,
+      "pred_l": 3.86,
+      "iou": 0.6764449870149419,
+      "P2": [
+        721.5377,
+        0.0,
+        609.5593,
+        0.0,
+        0.0,
+        721.5377,
+        172.854,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "image_size": [
+        1242,
+        375
+      ]
+    },
+    {
+      "frame": "000110",
+      "fy": 721.5377,
+      "cy": 172.854,
+      "H_used": 1.511,
+      "h_2D": 58.461334228515625,
+      "Z_raw": 18.648966519279554,
+      "r_hat": 1.0712074195635382,
+      "Z_corr": 19.976911302644268,
+      "Z_final": 19.976911302644268,
+      "GT_z": 19.974687,
+      "corr_signed_error": 0.002224302644268761,
+      "final_signed_error": 0.002224302644268761,
+      "pred_h": 1.52,
+      "pred_w": 1.64,
+      "pred_l": 3.86,
+      "iou": 0.7442494142067365,
+      "P2": [
+        721.5377,
+        0.0,
+        609.5593,
+        0.0,
+        0.0,
+        721.5377,
+        172.854,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "image_size": [
+        1242,
+        375
+      ]
+    },
+    {
+      "frame": "000043",
+      "fy": 721.5377,
+      "cy": 172.854,
+      "H_used": 1.511,
+      "h_2D": 38.08476257324219,
+      "Z_raw": 28.6267628058154,
+      "r_hat": 1.0453424214860534,
+      "Z_corr": 29.924769550737956,
+      "Z_final": 29.924769550737956,
+      "GT_z": 29.957689,
+      "corr_signed_error": -0.03291944926204238,
+      "final_signed_error": -0.03291944926204238,
+      "pred_h": 1.52,
+      "pred_w": 1.64,
+      "pred_l": 3.86,
+      "iou": 0.7902789400722591,
+      "P2": [
+        721.5377,
+        0.0,
+        609.5593,
+        0.0,
+        0.0,
+        721.5377,
+        172.854,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "image_size": [
+        1242,
+        375
+      ]
+    }
+  ],
+  "input_sha256": {
+    "/home/e114/Desktop/GEMO3D-finals/results/formula_pred_meta.csv": "a720f947abed56bae10b784fe52081b9f4c730956eb5e462444c6a9f60d156e4",
+    "/home/e114/Desktop/mono3d/GEMO3D/comp/sed_rank_ratio_linear_model.pkl": "3673cebe3e69eb9d74aa7c3886867d62749de6daabceefadcfb0934e3fd70e9d",
+    "/home/e114/Desktop/mono3d/GEMO3D/submodule/compensation.py": "82fa8a274372b46196a976d67743ea5dc3a0acd814d234b8037dc2c250de70f4",
+    "/home/e114/Desktop/mono3d/GEMO3D/submodule/pipeline.py": "455d9dcac8ae4da61a6c570fe246a8486665c41f6b6e601066852fa564e6f52e",
+    "/home/e114/Desktop/mono3d/GEMO3D/submodule/config.py": "8cbd723552274d53cab2b4733828d033213846bc0898af77bfd788eec6dd477f",
+    "/home/e114/Desktop/mono3d/GEMO3D/submodule/geometry.py": "2be394f51697a05f3e8f747e58ddd126447632ec94effd327a371c3ca8247ae5",
+    "/home/e114/KITTI_ROOT/sed_lincoln_fr_T1R8/data/KITTIDataset_Carla/training/calib/000170.txt": "9c64bffb9aa005bd618459c9a6559df6e6da5836c2550c2556dfaccc4b5649ec",
+    "/home/e114/KITTI_ROOT/sed_lincoln_fr_T1R8/data/KITTIDataset_Carla/training/label_2/000170.txt": "29e36e2b64cade7c48d01077121ecd7f9e49e2aca4453b08362175f7c04ec4b9",
+    "/home/e114/KITTI_ROOT/sed_lincoln_fr_T1R8/data/KITTIDataset_Carla/training/image_2/000170.png": "09dd407f762b6a76addf36a99fb2d8230f526f9d5a3c4ba86ddb33176834cc83",
+    "/home/e114/KITTI_ROOT/sed_lincoln_fr_T1R8/data/KITTIDataset_Carla/training/calib/000110.txt": "9c64bffb9aa005bd618459c9a6559df6e6da5836c2550c2556dfaccc4b5649ec",
+    "/home/e114/KITTI_ROOT/sed_lincoln_fr_T1R8/data/KITTIDataset_Carla/training/label_2/000110.txt": "75f21d7ae516dbc6403422b640d09100c6802e00d16178f39e2849f2ec7f2f07",
+    "/home/e114/KITTI_ROOT/sed_lincoln_fr_T1R8/data/KITTIDataset_Carla/training/image_2/000110.png": "8eb5fac3ef7cd40c7c31e1f2bd9cb8ee5b9214ce88b255d8ff5e887d58b55411",
+    "/home/e114/KITTI_ROOT/sed_lincoln_fr_T1R8/data/KITTIDataset_Carla/training/calib/000043.txt": "9c64bffb9aa005bd618459c9a6559df6e6da5836c2550c2556dfaccc4b5649ec",
+    "/home/e114/KITTI_ROOT/sed_lincoln_fr_T1R8/data/KITTIDataset_Carla/training/label_2/000043.txt": "22cd166664a8a832af6895bd54bc0bb5a5c4871ed2dd4ab98534dd3f25fe08e7",
+    "/home/e114/KITTI_ROOT/sed_lincoln_fr_T1R8/data/KITTIDataset_Carla/training/image_2/000043.png": "c7d6a363e3ce01fd89a5df957da47bae4daa6fdee5221301fc98a7039ce5a4e7"
+  },
+  "height_sensitivity": {
+    "20": -0.36689052762179797,
+    "30": -0.8255036871490454
+  }
+}
