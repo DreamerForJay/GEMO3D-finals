@@ -1,0 +1,10 @@
+condition,target,unit,status,depth_rmse_m,reason
+road_grade,-5,%,not_measured,—,Requires controlled capture; no fabricated metrics
+road_grade,0,%,not_measured,—,Requires controlled capture; no fabricated metrics
+road_grade,5,%,not_measured,—,Requires controlled capture; no fabricated metrics
+focal_length,700,px,not_measured,—,Requires controlled capture; no fabricated metrics
+focal_length,900,px,not_measured,—,Requires controlled capture; no fabricated metrics
+focal_length,1100,px,not_measured,—,Requires controlled capture; no fabricated metrics
+camera_height,1.2,m,not_measured,—,Requires controlled capture; no fabricated metrics
+camera_height,1.5,m,not_measured,—,Requires controlled capture; no fabricated metrics
+camera_height,1.8,m,not_measured,—,Requires controlled capture; no fabricated metrics

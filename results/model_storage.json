@@ -1,0 +1,18 @@
+[
+  {
+    "path": "/home/e114/MonoDGP/outputs/monodgp/checkpoint_best.pth",
+    "file_bytes": 495970792,
+    "sha256": "30b950e095283807b86a8a1c9a46c9aa461e4f70e9832af56d4b95913fb85202",
+    "state_tensor_elements": 43334896,
+    "state_tensor_bytes": 173339584,
+    "note": "Includes registered buffers; not asserted trainable parameter count. Whole checkpoint size may include optimizer."
+  },
+  {
+    "path": "/home/e114/MonoDETR/outputs/monodetr_carla/checkpoint_best.pth",
+    "file_bytes": 447977215,
+    "sha256": "b618f6da895c1aabafb6a155ab22c312de374133044cc80dfe751280de441ea6",
+    "state_tensor_elements": 38380527,
+    "state_tensor_bytes": 153522108,
+    "note": "Includes registered buffers; not asserted trainable parameter count. Whole checkpoint size may include optimizer."
+  }
+]

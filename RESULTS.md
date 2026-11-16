@@ -1,4 +1,14 @@
-# 決賽實驗更新 — 2026-11-15
+# 決賽實驗更新 — 2026-11-16
+
+## 最新重點摘要｜2026-11-16
+
+- **已跑完15組×199張控制推論**：A–F消融、Rank1/2/3/Full/查表/二次曲面、tightfit與車型／尺寸敏感度。[實驗設計與結果](results/ablation.md)
+- **Rank-1有效，但完整流程未必更好**：深度RMSE A 1.694→D 0.762m；完整F 1.305m。10筆tightfit的2D投影改善但3D中心變差，保留逐筆與[案例圖](results/failure_cases/README.md)。
+- **速度改善已驗證**：移除未使用的除錯視角讀圖，FP16流程134.017→89.241ms，約33.4%下降；100張預測逐位元一致。[分段計時](results/timing_breakdown.md)
+- **舊比較資料混用不同GT**：同ID並非同物件，現存四份pairs不能重現舊165摘要。[查核證據](results/historical_165_audit.md)
+- **未全部完成**：原論文同資料／同設定重現、訓練端無洩漏證明、獨佔GPU、坡度／焦距／高度受控捕捉與KITTI連續序列仍缺來源或資源。以下新實驗不能替代這些證據。
+
+![實驗摘要](results/experiment_summary.png)
 
 依 GEMO3D-finals `d9bf54e6e46bfbad471b0fffaeb7617e9a679e66` 執行。獨立工作目錄 `/home/e114/Desktop/GEMO3D-finals`。既有 AMNet 程式與資料未修改。
 
@@ -111,3 +121,27 @@
 - #2 GPU檢查有CARLA行程，利用率97%，不符合獨佔條件；[計時待辦與環境紀錄](results/timing_breakdown.md)。未量測數據填「—」，未宣稱論文31.12FPS已重現。
 
 驗證：新推論3/3成功；每張1預測、1GT且2D IoU≥0.5；公式assertions通過。未改模型核心、未覆寫舊影片／推論。此次成果屬issue #1指定公開回報；先前PitchLab待核准附件仍未發布或上傳。
+
+
+## 本次完整執行紀錄｜2026-11-16
+
+**範圍與硬體**：Lincoln CARLA val199張；GEMO3D核心3dd8e9a、RTX3060共享、PyTorch2.6.0+cu124。15組新推論共2985張；四種計時設定各100張，另含暖機與一致性核對。原模型核心／原始資料／舊影片未覆寫。
+
+**結果入口**：
+
+| 工作 | 本次完成 | 尚缺 |
+|---|---|---|
+| #1 公式 | 三距離實例、P2與metadata一致、PKL自述比例方向 | Blender原始腳本／CSV中心定義 |
+| #2 速度 | FP32、no-tightfit、YOLO-FP16、精簡I/O四組分段實測 | 獨佔環境與論文31.12FPS確切命令 |
+| #3 消融 | [A–F全指標、全部／共同配對](results/ablation.csv) | 原論文同165物件來源；本次是新序列 |
+| #4 補償比較 | [Rank1/2/3、full、查表、二次曲面直接／網格比較](results/compensation_compare.md) | 其他車型與原論文同條件驗證 |
+| #5 公平性 | [全部預測計數](results/detection_stats.csv)、[資料切分查核](results/data_split.md)、舊摘要全精度存檔 | 原始訓練清單與baseline完整生成設定，尚不能宣稱無洩漏 |
+| #6 穩健性 | [條件盤點與未量測清單](results/robustness_status.md) | 獨立模擬session或新受控資料；PitchLab待核准附件仍未發布 |
+| #7 失敗／tightfit／車型 | [15個案例及3組前後圖](results/failure_cases/README.md)、[165筆tightfit比較](results/tightfit_ablation.csv)、[車型敏感度](results/vehtype_sensitivity.csv) | 本次為強制車型干預，不是實際分類錯誤率 |
+| #8 圖與KITTI時序 | 架構圖維持使用者指定跳過；本機未找到raw/tracking資料 | 真正連續KITTI序列與校正／時間資訊 |
+
+**重現**：mono3d Python執行 `run_controlled_suite.py`（14組）與 `--variants poly2_direct`（第15組），再執行 `evaluate_controlled_suite.py`、`build_experiment_reports.py`、`summarize_controlled_suite.py`。完整命令見ablation.md；計時命令見timing_breakdown.md。原模型、權重、輸入與輸出雜湊在 [manifest](results/controlled_20261116/manifest.json)，所有方法預測在predictions.json、配對在pairs.csv，不只保留漂亮樣本。
+
+**驗證**：15組的偵測框逐張完全一致；597份輸入雜湊與前次紀錄相同；6項幾何／配對測試通過；計時插樁前後預測一致，精簡I/O版100/100預測TXT逐位元相同；已檢視摘要圖與失敗案例。BEV交集為OpenCV float32幾何，輸出數字保留重算精度但原始TXT本身已四捨五入。
+
+**重要限制**：新控制實驗165配對、新四方法共同20配對與舊論文165配對不相同。歷史baseline使用現存檔案全部候選，分數門檻未核實，不能當公平SOTA排名。獨佔、未知相機泛化、無洩漏及KITTI連續展示均未宣稱完成。所有issue保留未核實部分，不因有CSV就關閉。

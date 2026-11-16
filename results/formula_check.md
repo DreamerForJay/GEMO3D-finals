@@ -45,3 +45,7 @@ P2 = [[721.537700, 0, 609.559300, 0],
 在 repo 根目錄執行 `bash results/reproduce_formula.sh`，將該腳本輸出的 pred_meta.csv 複製為 results/formula_pred_meta.csv，再以 mono3d Python 執行 `check_formula.py`。JSON 保存全精度數值與輸入、模型、來源碼 SHA-256。
 
 GEMO3D commit 3dd8e9a404d425ebee8bad40040659ddcdc64757；RTX 3060、PyTorch 2.6.0+cu124、驅動550.144.03；imgsz1280、FP16、投影3次、tightfit15/k50。完整 CLI 見 reproduce_formula.sh。GPU 共享（CARLA 約4120 MiB、當時使用率97%），本次沒有量測速度。原論文參數對應與訓練端定義未核實，issue #1 保留待核對部分。
+
+## 2026-11-16 進一步來源證據
+
+讀取模型PKL後，used_columns明確記錄target=ratio_2d_3d_h=h2d_px/h3d_proj_px、h2d_col=bb_h、h3d_col=height3d_proj_px；apply_formula=z_corr=z_raw*ratio_hat。相機metadata也記錄fy=721.5377，與P2一致。這增加模型方向與實際校正的證據，但原Blender腳本／CSV仍缺，height3d_proj_px的原始幾何求法與中心定義未完全核實。

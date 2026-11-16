@@ -1,8 +1,20 @@
 # AI 協作交接
 
-更新日期：2026-11-15（Asia/Taipei）。數值與證據以 [RESULTS.md](../RESULTS.md) 為準。
+更新日期：2026-11-16（Asia/Taipei）。數值與證據以 [RESULTS.md](../RESULTS.md) 為準。
 
-## 目前狀態
+## 最新接手重點
+
+15組×199張新控制推論與4組×100張分段計時已完成並同步；先讀RESULTS.md頂部摘要、results/ablation.md、results/historical_165_audit.md。可執行工作已推進到實際測量，不再停在三張公式例子。
+
+- 深度RMSE A1.694、D0.762、F1.305m；tightfit不保證改善，10筆2D更好而3D更差。
+- 精簡除錯視角I/O：134.017→89.241ms，100張預測完全一致；可用benchmark_stages.py --production-io，不已部署於核心repo。
+- 舊四方法pairs混不同GT，同ID交集128但GT一致0；不要沿用這些CSV宣稱重現165。
+- 新模型比例網格可重建Rank1/2/3/full；訓練原CSV仍缺，使用者已被詢問路徑，尚未收到。
+- 繼續需：建模原始來源、論文計時命令、獨立CARLA受控捕捉環境、KITTI raw/tracking資料。不要動正在跑的CARLA世界／actor來湊獨佔條件。
+- PitchLab未核准附件繼續留本機；不要把其他實驗同步授權解讀為可繞過原審核。
+- 回報先列重點摘要，再給詳細連結，依使用者要求。
+
+## 原有展示狀態
 
 | 項目 | 狀態與限制 |
 |---|---|
