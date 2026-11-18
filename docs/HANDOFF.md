@@ -4,6 +4,8 @@
 
 ## 2026-11-18 最新交接：Demo 素材
 
+雲端交付完成：[ZIP](https://drive.google.com/file/d/1iRgBjb9RdAtCWrnTYF72UfBBu0S2FfvC/view?usp=drivesdk)（68,178,454 bytes，內容commit `77431e1`）；[回讀驗證紀錄](../results/cloud_upload_2026-11-18_demo.json)。ZIP 是不可變快照，不包含本次上傳收據，請另讀最新 GitHub。未更動分享權限；遠端checksum未提供。
+
 先讀 [素材總表](../results/demo/README.md) 和 [catalog.json](../results/demo/catalog.json)。12 支 MP4、54 PNG、23 JPG、逐幀 CSV／JSON、離線 index.html 已產生並驗證。重建腳本 build_demo_assets.py → build_demo_catalog.py → validate_demo_assets.py。
 
 - 可直接使用 G-A1、G-F1、G-M1；G-E1須保留「歷史設定未核實／非公平比較」標示。

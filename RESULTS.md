@@ -20,7 +20,7 @@
 
 原始來源路徑與模型／權重雜湊在 `results/controlled_20261116/manifest.json`。G-C1 中 sedan 為強制設定；r=1-comp_final/z_est，comp_final單位是公尺，Z_corr與包含tightfit的最終深度分開記錄。G-F1比較A與D，兩者均不含ground/tightfit，不能標成完整F。G-D1只提供既有模型0–180°網格7200筆，不虛構原始高度或另半圈。G-K1的強制SUV不是實際分類器誤判。
 
-雲端版本包將在驗證後建立；上傳成功與 metadata 核對會另增不可變上傳紀錄。未上傳模型權重、完整資料集或本機 PitchLab 附件。未部署網站、未啟用背景自動同步。
+**雲端已上傳**：[Demo 素材 ZIP](https://drive.google.com/file/d/1iRgBjb9RdAtCWrnTYF72UfBBu0S2FfvC/view?usp=drivesdk)（68,178,454 bytes，內容 commit `77431e1`）。ZIP 完整性與本機 SHA-256 已驗證；Drive 回讀檔名、大小及父資料夾一致，未回傳遠端 checksum，不能宣稱遠端雜湊驗證。[上傳紀錄](results/cloud_upload_2026-11-18_demo.json)。保留既有分享範圍；未上傳模型權重、完整資料集或本機 PitchLab 附件。未部署網站、未啟用背景自動同步。
 
 
 ## 最新重點摘要｜2026-11-16

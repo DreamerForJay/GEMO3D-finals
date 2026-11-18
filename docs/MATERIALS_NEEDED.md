@@ -22,3 +22,7 @@
 - [ ] 架構圖各模組放大圖之原始檔（簡報模組特寫目前為截圖）
 
 > 實驗室 11/16 的新結果（ISSUE_REVIEW、ablation、timing 診斷）尚未寫入海報／簡報；確認可用的數字後再更新。
+
+## 2026-11-18 雲端素材包
+
+[下載 Demo 素材 ZIP](https://drive.google.com/file/d/1iRgBjb9RdAtCWrnTYF72UfBBu0S2FfvC/view?usp=drivesdk)：12支影片、54 PNG、23 JPG與CSV／JSON，內含離線預覽 `results/demo/index.html`。大小68,178,454 bytes；內容commit `77431e1`。[逐項狀態](../results/demo/README.md)／[上傳驗證紀錄](../results/cloud_upload_2026-11-18_demo.json)。G-E1只是歷史基準查核預覽；缺資料的項目仍標部分或待補，網站不可據此宣稱全部實驗完成。

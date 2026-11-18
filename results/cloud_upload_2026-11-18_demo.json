@@ -1,0 +1,25 @@
+{
+  "local_path": "/home/e114/Desktop/gemo3d_demo_2026-11-18_77431e1.zip",
+  "bytes": 68178454,
+  "sha256": "ee10a5ed797a1090a6e6f9f3e8729d076a7681553ca8426475dc65e5e31a2699",
+  "content_commit": "77431e13191739f851ffa14ecbd8bdf6106ceee8",
+  "zip_entries": 164,
+  "zip_integrity": "passed",
+  "uploaded_at_utc": "2026-11-18T08:30:08.976820+00:00",
+  "drive_file_id": "1iRgBjb9RdAtCWrnTYF72UfBBu0S2FfvC",
+  "drive_folder_id": "1KhSc-MnMtK0IDHQUKcLMGUAKOs2ynonz",
+  "url": "https://drive.google.com/file/d/1iRgBjb9RdAtCWrnTYF72UfBBu0S2FfvC/view?usp=drivesdk",
+  "remote_metadata": {
+    "name": "gemo3d_demo_2026-11-18_77431e1.zip",
+    "size": 68178454,
+    "mime_type": "application/zip"
+  },
+  "verification": {
+    "zip_integrity": "passed",
+    "local_sha256": "computed",
+    "remote_name_size_parent": "matched",
+    "remote_checksum": "not_returned_not_verified"
+  },
+  "sharing": "Existing folder permissions left unchanged; permission visibility not returned by metadata.",
+  "scope": "Demo media and numerical integration assets only; no model weights, full dataset, or local PitchLab attachments."
+}

@@ -81,3 +81,7 @@ results/demo/<代號>/
 ## 2026-11-18 交付入口
 
 [完整素材清單與限制](../results/demo/README.md)；離線預覽 `results/demo/index.html`；網站整合讀 `catalog.json`、逐幀 CSV 與 geometry.json。所有影片 1080p／30fps／H.264，18秒完整版與12秒簡報版，皆含2秒數據卡。30fps僅為重取樣播放；數據維持原輸出精度、保留漏檢。
+
+## 2026-11-18 雲端素材包
+
+[下載 Demo 素材 ZIP](https://drive.google.com/file/d/1iRgBjb9RdAtCWrnTYF72UfBBu0S2FfvC/view?usp=drivesdk)：12支影片、54 PNG、23 JPG與CSV／JSON，內含離線預覽 `results/demo/index.html`。大小68,178,454 bytes；內容commit `77431e1`。[逐項狀態](../results/demo/README.md)／[上傳驗證紀錄](../results/cloud_upload_2026-11-18_demo.json)。G-E1只是歷史基準查核預覽；缺資料的項目仍標部分或待補，網站不可據此宣稱全部實驗完成。
