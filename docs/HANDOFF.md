@@ -2,6 +2,16 @@
 
 更新日期：2026-11-18（Asia/Taipei）。數值與證據以 [RESULTS.md](../RESULTS.md) 為準。
 
+## 2026-11-18 最新交接：分開解說
+
+`results/explained_demo/`是新增的獨立交付，不覆蓋v2素材。4支配置獨立片＋3支誤差片，共7片。build_explained_demo.py／validate_explained_demo.py可重建與驗證；來源仍是controlled_20261116。
+
+1. Full＝完整F流程，不等於full矩陣補償。四支曲線同尺度，可公平目視同序列消融，但仍受既有尺寸映射限制。
+2. 藍框預測／橘虛線GT、Z與ry數值、三種誤差已分清。yaw_observed是觀測，不是受控轉彎／轉換錯誤因果證據。
+3. yaw_geometry只使用GT固定中心與尺寸人工旋轉。mapping的source_frame固定000110，simulation_sample另列，不冒充121張真實影像。角點RMS不是模型準確率。
+4. tightfit_failure以失敗說明挑前31幀，不是代表性整體排名；保留漏檢，從同幀F_no_tightfit／F比對。仍缺可核實實際轉角序列。
+5. 未追蹤PitchLab附件仍不屬本次包；雲端新版獨立保存，後續讀最新收據。
+
 ## 2026-11-18 最新交接：互動 v2
 
 先讀 [參考頁／A–M對照](DEMO_REFERENCE_REVIEW.md)。新增6個曲線與幾何互動面板、6支真精華剪輯、6張四幀橫排圖及可排序消融表。所有主影片與原測量未更動。

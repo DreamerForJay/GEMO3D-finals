@@ -1,0 +1,46 @@
+{
+  "methods": [
+    {
+      "method": "F",
+      "frames": 19,
+      "predictions": 19,
+      "gt": 19,
+      "matches": 19,
+      "unmatched_predictions": 0,
+      "unmatched_gt": 0,
+      "depth_rmse_m": 0.13065305358165366,
+      "depth_mae_m": 0.11103589473684189,
+      "center_rmse_m": 0.14083167389046192,
+      "center_mean_m": 0.12121936251325298,
+      "gt_depth_range_m": [
+        9.217195,
+        12.301958
+      ]
+    }
+  ],
+  "frames": [
+    "000157",
+    "000158",
+    "000159",
+    "000160",
+    "000161",
+    "000162",
+    "000163",
+    "000164",
+    "000165",
+    "000166",
+    "000167",
+    "000168",
+    "000169",
+    "000170",
+    "000171",
+    "000172",
+    "000173",
+    "000174",
+    "000175"
+  ],
+  "notes": "Observed yaw vs center error, not controlled yaw intervention or proof of causal angle conversion error.",
+  "source": "results/controlled_20261116",
+  "matching": "class-aware IoU >= .5; unmatched errors left blank",
+  "capture": "Metadata has repeated timestamps/frame IDs; offline image-ID order, not verified strict sensor timing."
+}

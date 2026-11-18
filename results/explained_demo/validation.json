@@ -1,0 +1,92 @@
+{
+  "videos": [
+    {
+      "file": "full_only.mp4",
+      "frames": 540,
+      "fps": 30.0,
+      "bytes": 2202144
+    },
+    {
+      "file": "no_tightfit_only.mp4",
+      "frames": 540,
+      "fps": 30.0,
+      "bytes": 2202234
+    },
+    {
+      "file": "pinhole_only.mp4",
+      "frames": 540,
+      "fps": 30.0,
+      "bytes": 2198454
+    },
+    {
+      "file": "rank1_only.mp4",
+      "frames": 540,
+      "fps": 30.0,
+      "bytes": 2204474
+    },
+    {
+      "file": "tightfit_failure.mp4",
+      "frames": 360,
+      "fps": 30.0,
+      "bytes": 770960
+    },
+    {
+      "file": "yaw_geometry.mp4",
+      "frames": 360,
+      "fps": 30.0,
+      "bytes": 451978
+    },
+    {
+      "file": "yaw_observed.mp4",
+      "frames": 360,
+      "fps": 30.0,
+      "bytes": 591744
+    }
+  ],
+  "measurements": [
+    {
+      "video": "full_only",
+      "method": "F",
+      "matches": 165,
+      "rmse": 1.3050770011812327
+    },
+    {
+      "video": "no_tightfit_only",
+      "method": "F_no_tightfit",
+      "matches": 165,
+      "rmse": 0.7621694566091965
+    },
+    {
+      "video": "pinhole_only",
+      "method": "A",
+      "matches": 165,
+      "rmse": 1.6935138561081755
+    },
+    {
+      "video": "rank1_only",
+      "method": "D",
+      "matches": 165,
+      "rmse": 0.7621694566091965
+    },
+    {
+      "video": "tightfit_failure",
+      "method": "F_no_tightfit",
+      "matches": 30,
+      "rmse": 0.792403792999757
+    },
+    {
+      "video": "tightfit_failure",
+      "method": "F",
+      "matches": 30,
+      "rmse": 2.607812131364859
+    },
+    {
+      "video": "yaw_observed",
+      "method": "F",
+      "matches": 19,
+      "rmse": 0.13065305358165366
+    }
+  ],
+  "checksummed_files": 37,
+  "status": "passed"
+}

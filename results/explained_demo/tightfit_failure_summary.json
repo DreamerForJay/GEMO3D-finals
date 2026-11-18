@@ -1,0 +1,75 @@
+{
+  "methods": [
+    {
+      "method": "F_no_tightfit",
+      "frames": 31,
+      "predictions": 30,
+      "gt": 31,
+      "matches": 30,
+      "unmatched_predictions": 0,
+      "unmatched_gt": 1,
+      "depth_rmse_m": 0.792403792999757,
+      "depth_mae_m": 0.6837154666666674,
+      "center_rmse_m": 0.8025872725525047,
+      "center_mean_m": 0.6953246520421806,
+      "gt_depth_range_m": [
+        31.764696,
+        35.77344
+      ]
+    },
+    {
+      "method": "F",
+      "frames": 31,
+      "predictions": 30,
+      "gt": 31,
+      "matches": 30,
+      "unmatched_predictions": 0,
+      "unmatched_gt": 1,
+      "depth_rmse_m": 2.607812131364859,
+      "depth_mae_m": 2.2310228666666654,
+      "center_rmse_m": 2.6249760745696826,
+      "center_mean_m": 2.2460487409083014,
+      "gt_depth_range_m": [
+        31.764696,
+        35.77344
+      ]
+    }
+  ],
+  "frames": [
+    "000000",
+    "000001",
+    "000002",
+    "000003",
+    "000004",
+    "000005",
+    "000006",
+    "000007",
+    "000008",
+    "000009",
+    "000010",
+    "000011",
+    "000012",
+    "000013",
+    "000014",
+    "000015",
+    "000016",
+    "000017",
+    "000018",
+    "000019",
+    "000020",
+    "000021",
+    "000022",
+    "000023",
+    "000024",
+    "000025",
+    "000026",
+    "000027",
+    "000028",
+    "000029",
+    "000030"
+  ],
+  "notes": "Failure-focused first 31 frames; not a representative performance estimate. Matched A/B pipeline outputs, not evidence that yaw causes these changes.",
+  "source": "results/controlled_20261116",
+  "matching": "class-aware IoU >= .5; unmatched errors left blank",
+  "capture": "Metadata has repeated timestamps/frame IDs; offline image-ID order, not verified strict sensor timing."
+}

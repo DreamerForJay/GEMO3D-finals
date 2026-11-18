@@ -93,3 +93,7 @@ results/demo/<代號>/
 ### 最新v2下載
 
 [互動素材v2 ZIP](https://drive.google.com/file/d/1Cgbtkw47FfzurnFNdHKa9XPaHhx1RqnX/view?usp=drivesdk)（79,758,680 bytes；內容commit b199216），含18支影片、60 PNG、23 JPG、離線互動頁與CSV／JSON。[上傳回讀紀錄](../results/cloud_upload_2026-11-18_demo_v2.json)。解壓開啟 results/demo/index.html；新精華影片名稱含 `_highlight_short`，數字對應各自的片段摘要。
+
+## 最新：各配置分開＋誤差易讀解說
+
+[7支獨立影片](../results/explained_demo/README.md)：Full／未補償／Rank-1／停用tightfit分開；中文框旁Z與ry、圖例、三種誤差與曲線解說。另有實際tightfit失敗、實測朝向誤差觀察、明確標示人工的yaw幾何示意。未取得實際轉角因果驗證素材，不以示意片充數。

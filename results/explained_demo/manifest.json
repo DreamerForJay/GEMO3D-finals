@@ -1,0 +1,154 @@
+{
+  "files": {
+    "README.md": {
+      "bytes": 1187,
+      "sha256": "c7421cc230d4c98d1319476155a997ffe14c63df6fa5ddb272fa0ce783cfe74f"
+    },
+    "full_only.mp4": {
+      "bytes": 2202144,
+      "sha256": "ed2d36fee71c56e6966f7144cede81295f45d3808039e47f2a6be47f30c3a0d6"
+    },
+    "full_only_mapping.csv": {
+      "bytes": 8382,
+      "sha256": "ec07b8423e38acf814f171362416f8e6439cc2a90e96eba28cb48100aad2c136"
+    },
+    "full_only_per_frame.csv": {
+      "bytes": 26258,
+      "sha256": "9add05062c421a77d92a71368129dca09ad0033bfa8126f6192c1649a42a0bc3"
+    },
+    "full_only_poster.jpg": {
+      "bytes": 368004,
+      "sha256": "24991b92f16e0aa29248a85bf8064aa09b9f6c73104e9bbd6a00be4556532dcb"
+    },
+    "full_only_summary.json": {
+      "bytes": 3559,
+      "sha256": "eee0d6668e9861523b38acc1ac48c9aad25df20a6f2bef69001483fdc3869748"
+    },
+    "index.html": {
+      "bytes": 2973,
+      "sha256": "60da3b77e3e5b98f4a6cbbf840d4efb86879fbc9d122c83d8ea0f0e5f40f2868"
+    },
+    "no_tightfit_only.mp4": {
+      "bytes": 2202234,
+      "sha256": "f15bc1af994ab3660f1b56f6e4105393a9e997b8ef8b6fe1e4f1b164f53bb132"
+    },
+    "no_tightfit_only_mapping.csv": {
+      "bytes": 8382,
+      "sha256": "ec07b8423e38acf814f171362416f8e6439cc2a90e96eba28cb48100aad2c136"
+    },
+    "no_tightfit_only_per_frame.csv": {
+      "bytes": 28634,
+      "sha256": "8656fe6a87124d68986c346ccee9444c89235a28b9eb0c323a0dbe5229eba220"
+    },
+    "no_tightfit_only_poster.jpg": {
+      "bytes": 367530,
+      "sha256": "856272103f2079fa35ceaa49f0c642ff82c1a1b4e5060352dc51a890e80c1bf9"
+    },
+    "no_tightfit_only_summary.json": {
+      "bytes": 3572,
+      "sha256": "5d86992bf59222bb5e2b0555c4776590ae4606612a2fda75127725a02ec34588"
+    },
+    "pinhole_only.mp4": {
+      "bytes": 2198454,
+      "sha256": "eec2bd399172b6b3fca226a3ea3b4b6c9f22bf3ce966bcad5953ed298b389434"
+    },
+    "pinhole_only_mapping.csv": {
+      "bytes": 8382,
+      "sha256": "ec07b8423e38acf814f171362416f8e6439cc2a90e96eba28cb48100aad2c136"
+    },
+    "pinhole_only_per_frame.csv": {
+      "bytes": 26042,
+      "sha256": "948e5f55416d7f711dee47ddbb7d20f6db659ef62d8ef08f6edf4e09c430d1ef"
+    },
+    "pinhole_only_poster.jpg": {
+      "bytes": 362022,
+      "sha256": "95e597442f7c1c3f1497893c4370b2e43a3450f1f722bff5546e0ed94c803b60"
+    },
+    "pinhole_only_summary.json": {
+      "bytes": 3561,
+      "sha256": "851c53a2ac82db21af26113ebd26a6046f1d863f942ba96784fc096d32284711"
+    },
+    "rank1_only.mp4": {
+      "bytes": 2204474,
+      "sha256": "f1574569818e2053dfcb2f737a40eacded04242d6cd737a0ba6be9310f1895d2"
+    },
+    "rank1_only_mapping.csv": {
+      "bytes": 8382,
+      "sha256": "ec07b8423e38acf814f171362416f8e6439cc2a90e96eba28cb48100aad2c136"
+    },
+    "rank1_only_per_frame.csv": {
+      "bytes": 26200,
+      "sha256": "ba004b4cd8038518e5cbc5446801a3214a94366dea6d7a2b9c768a81db2fbe88"
+    },
+    "rank1_only_poster.jpg": {
+      "bytes": 364983,
+      "sha256": "f0cfd7f0dfbd0d65df1ab03c4b0e325ffed25a6ad81c64d66f0cf14056beefc5"
+    },
+    "rank1_only_summary.json": {
+      "bytes": 3554,
+      "sha256": "2f4bd54086e12c9cfe13bcd7716647ea30256cb183a88322e2a4744e2fdeb397"
+    },
+    "tightfit_failure.mp4": {
+      "bytes": 770960,
+      "sha256": "8f0efdbfe7efba8e4f4deb4734bc2648b93db6f146272ea568a9884d8e1d1344"
+    },
+    "tightfit_failure_mapping.csv": {
+      "bytes": 5502,
+      "sha256": "5f35df3d0740e341aed06766a00ff99fbdcaeaf100d94472d656eb3c3a80eb14"
+    },
+    "tightfit_failure_per_frame.csv": {
+      "bytes": 9334,
+      "sha256": "1795e1cb0fca7adddcad43d0ff43ad58367bd74b6461d8140763672618cd0f8e"
+    },
+    "tightfit_failure_poster.jpg": {
+      "bytes": 386113,
+      "sha256": "25e84badaccbfe636b43709053c940eeb217f33ee42c8feb5beb4480c85ee474"
+    },
+    "tightfit_failure_summary.json": {
+      "bytes": 1710,
+      "sha256": "e822260da78cf3205af0cda0155acb6b3fc7f670c54dec6dfa5aafd5fe7afd98"
+    },
+    "yaw_geometry.mp4": {
+      "bytes": 451978,
+      "sha256": "b7f5f8768b21ea92836782b697f244d6f66166f1c038b00b7e08329bfde4e2fa"
+    },
+    "yaw_geometry_mapping.csv": {
+      "bytes": 6505,
+      "sha256": "0daea082e4afd6745332c6b5370bcbe32aeb6dd99dae839362012c11292e79e9"
+    },
+    "yaw_geometry_per_frame.csv": {
+      "bytes": 11593,
+      "sha256": "789380eefe798f3c91b4f3782e9e8a5d3c0f13789229b4a510195a699b4d412d"
+    },
+    "yaw_geometry_poster.jpg": {
+      "bytes": 357020,
+      "sha256": "06c6a1eb72dd8e81e208767c3396b297001e7bda4b55d76e3a5b574f9f885f80"
+    },
+    "yaw_geometry_summary.json": {
+      "bytes": 285,
+      "sha256": "6d726222d54d551b4a21b3b32c3e34042437487438f060b963dbb69ab4992e8a"
+    },
+    "yaw_observed.mp4": {
+      "bytes": 591744,
+      "sha256": "7cf9ead3f182d38539018852e869370ca4d98825e22b411e060d211c561cbab4"
+    },
+    "yaw_observed_mapping.csv": {
+      "bytes": 5502,
+      "sha256": "5151df64237fb8ad341d4aa9aa07a3d9ec80cd47ee2462ef643d3bc843be69ad"
+    },
+    "yaw_observed_per_frame.csv": {
+      "bytes": 2902,
+      "sha256": "f3cb371f1ad7b48362b19815b0c81a74be2d81127bf82d810cd67265cf88b495"
+    },
+    "yaw_observed_poster.jpg": {
+      "bytes": 385347,
+      "sha256": "52c02033b24bf56added4727cc05b7777d6be432c19628db2a7bc42ce3aaf62c"
+    },
+    "yaw_observed_summary.json": {
+      "bytes": 1075,
+      "sha256": "0e3137870eeb99599d48de9904d2446fbce196c20f36aa1fb65547da2588a030"
+    }
+  },
+  "source_commit": "32be75c",
+  "generator_sha256": "3f6ce6d11808fbb0cbf5c50e6ee70b356c259499c5d11fce8cc5c75f975e71cf"
+}

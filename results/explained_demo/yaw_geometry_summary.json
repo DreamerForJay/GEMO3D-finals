@@ -1,0 +1,11 @@
+{
+  "kind": "synthetic_geometry_not_inference",
+  "source_frame": "000110",
+  "offset_range_deg": [
+    -30,
+    30
+  ],
+  "samples": 121,
+  "center_error_m": 0.0,
+  "note": "Fixed GT dimensions and center, change ry only; corner RMS uses corresponding corners, not model accuracy."
+}
