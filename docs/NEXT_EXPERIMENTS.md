@@ -18,6 +18,15 @@
 | N9 | 模型參數量與儲存空間 | 中 | 🔄 補償儲存與baseline checkpoint tensor統計；trainable／error-head仍待核實 |
 | N10 | KITTI 連續序列（tracking／raw）推論，設定可追溯 | 中 | ⬜ |
 | N11 | Jetson（或同級邊緣裝置）計時 | 中 | ⬜ |
+| V1 | Demo 影片：Teaser 三聯畫面（前視＋3D 框｜BEV 含 GT｜深度誤差曲線） | 高 | ⬜（現有 `results/GEMO3D_demo_sequence.mp4` 只有前視＋BEV） |
+| V2 | Demo 影片：CARLA 情境序列 S1 同向跟車、S2 被超車、S4 對向來車、S5 路口轉彎 | 高 | ⬜ |
+| V3 | Demo 影片：同序列 2×2 同步比較 MonoDETR（2023）／MonoDGP（2025）／MonoAMNet（2025）／GEMO3D | 高 | ⬜ |
+| V4 | Demo 對照：補償前（Z_raw）／補償後（Z_corr）3D 框與 BEV，6 張代表影像 | 高 | ⬜ |
+| V5 | Demo 影片：次要情境 S3 本車超車、S6 前車切入、S7 多車同時 | 中 | ⬜ |
+| V6 | 方法動畫：M1 車輛 0–360° 旋轉＋h2D／h3D,proj 比例曲線、M2 針孔相似三角形、M3 Rank-1 曲面分解 | 中 | 🔄 已有 loop-pinhole／loop-ratio／loop-reconstruct 與汽車轉角影片；M3 待做 |
+| V7 | 失敗案例圖／短片（遮擋、截斷、車型誤判） | 中 | 🔄 `results/failure_cases/` 已有圖，待補原因說明 |
+| V8 | 真實道路連續序列影片（同 N10） | 中 | ⬜（現有 `GEMO3D_demo_kitti.mp4` 為非連續影格） |
+| V9 | 低優先情境 S8 彎道／坡道、S9 俯仰角、S10 夜間雨天 | 低 | ⬜ |
 
 ---
 
@@ -107,6 +116,16 @@
 - 若有 Jetson Orin Nano（或同級）：完整流程 ms／張、FPS、功耗。
 
 ---
+
+## V 系列｜Demo 影片與動畫（2026-11-18 新增）
+
+用途：決賽現場簡報（3 分鐘版第 7 頁系統展示）、GitHub Pages 專案頁、評審 Q&A。完整情境與畫面設計見 `docs/DEMO_PLAN.md` 第一、六、七節。
+
+- 規格：1920×1080、30 fps、H.264（`-crf 23 -pix_fmt yuv420p`），單檔 ≤ 25 MB，另附首幀 JPG；對照圖同組尺寸相同、寬 1600 px。
+- 命名：`<代號>_<內容>_<日期>.mp4`，例如 `V3_method_compare_1120.mp4`；放 `results/demo/`，大檔放雲端並記錄連結於 `docs/MATERIALS_NEEDED.md`。
+- 每支影片附一段 `results/demo/<代號>.md`：資料來源、幀數、距離範圍、使用的權重／設定、影片中顯示的數字出處。
+- 影片中出現的誤差數字必須來自同一次推論輸出；結果不佳的情境也如實呈現，不剪掉。
+- 完成後把上表狀態改為 ✅，並通知更新簡報與專案頁。
 
 ## 同步規則
 
