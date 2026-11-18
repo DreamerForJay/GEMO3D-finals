@@ -1,5 +1,8 @@
 # GEMO3D 決賽補充實驗（實驗室伺服器執行用）
 
+> **最新清爽版（2026-11-18）**：[獨立前視／實際俯視比較素材](results/clean_demo/README.md)。12支10秒影片，綠虛線GT／紅實線預測；影片只有方法名＋當幀指標，圖表移到影片外。離線開啟 `results/clean_demo/index.html`。
+
+
 > **最新：分開看懂**：[下載7片解說包](https://drive.google.com/file/d/12tqZDcKPr3Qzl1ICrto0_j_lHEvQsg_c/view?usp=drivesdk) · [4種流程＋3支誤差解說影片](results/explained_demo/README.md)，框旁Z／朝向、中文圖例與曲線說明；離線開啟 `results/explained_demo/index.html`。
 
 > **2026-11-18 Demo v2**：[下載新版79.76MB ZIP](https://drive.google.com/file/d/1Cgbtkw47FfzurnFNdHKa9XPaHhx1RqnX/view?usp=drivesdk) · 新增曲線跳幀、方法／3D框切換、6支真正精華剪輯與6張列印橫排圖。[參考頁對照](docs/DEMO_REFERENCE_REVIEW.md)。

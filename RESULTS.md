@@ -1,5 +1,15 @@
 # 決賽實驗與 Demo 更新 — 2026-11-18
 
+## 2026-11-18 清爽版：真實俯視 RGB + 分開比較
+
+- 依最新回饋取代密集解說作為預設入口；舊包保留。12支10秒片＝四設定×前視／俯視＋A/D、F_no_tightfit/F兩組×兩視角。前視上下比較、俯視左右比較，同來源image ID；沒有曲線、長字或片尾卡。綠虛線GT，紅實線預測。
+- **真正CARLA俯視影像**：使用每幀 `meta.top_camera` 的內外參，KITTI→CARLA sensor→world→top sensor→pixel。框底面統一放在GT水平面，對應BEV只評XZ的定義；不是車頂輪廓。數字仍取公尺XZ平面IoU，不用像素IoU取代正式結果。
+- 全199張影格保留，包括漏檢；30fps／10秒為離線播放，不是推論速度。三處既有metadata重複仍保留，不能宣稱嚴格感測器時間同步。尚無新實際轉角因果影片。
+- 數值不變：A深度RMSE1.694m、D0.762m、F1.305m，165配對／199GT、34漏檢／9未配對預測。影片前視顯示幾何中心3D error，與整段深度RMSE明確區分。圖表獨立PNG／CSV／可展開網頁區塊。
+- [素材說明](results/clean_demo/README.md)／[驗證](results/clean_demo/validation.json)：12片各300幀完整解碼；所有來源影格／雜湊／摘要通過，IoU與原CSV差0，近垂直相機像素投影IoU與metric IoU最大差7.22e-7（只作幾何核對）。遠／中／近三幀視覺檢查完成。[網頁驗證](results/clean_demo/interaction_validation.json)：離線播放、切方法／視角保留位置、手機無橫向溢出通過。
+- 重建：`python build_clean_demo.py` → `python build_clean_catalog.py`；驗證：`python validate_clean_demo.py`、`node validate_clean_page.cjs`。未重新推論、未部署正式網站。
+
+
 ## 2026-11-18 分開解說影片（最新）
 
 [雲端7片解說包](https://drive.google.com/file/d/12tqZDcKPr3Qzl1ICrto0_j_lHEvQsg_c/view?usp=drivesdk)（13,440,768 bytes，內容commit `2d01bdb`）；[上傳收據](results/cloud_upload_2026-11-18_explained.json)。ZIP及本機SHA256、雲端回讀檔名／大小／父資料夾已核對；遠端checksum未回傳。此包獨立新增，不覆寫v2。

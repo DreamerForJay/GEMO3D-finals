@@ -1,5 +1,15 @@
 # AI 協作交接
 
+## 2026-11-18 最新：清爽比較為預設入口
+
+使用者拒絕資訊密集影片；改用 `results/clean_demo/index.html`。12片只有方法名及一個指標，曲線另外放。不要把曲線、BEV示意、三項誤差再塞回同片。綠虛線GT／紅實線預測。
+
+- 實際top_camera影像已用前後相機外參投影。統一GT底部Y平面繪製footprint（非車頂），數字仍為metric XZ IoU。來源 controlled_20261116，不是新推論。
+- `build_clean_demo.py` → `build_clean_catalog.py` 可重建；`validate_clean_demo.py`完整解碼與幾何核對、`validate_clean_page.cjs`離線互動測試均通過。
+- 199 image IDs全保留，三處metadata重複未修飾；缺實際轉彎因果影片、多情境等既有限制不變。Full是F全管線。
+- 舊v1/v2/explained版本保留；未追蹤PitchLab與tests不在本次提交或雲端包。
+
+
 更新日期：2026-11-18（Asia/Taipei）。數值與證據以 [RESULTS.md](../RESULTS.md) 為準。
 
 ## 2026-11-18 最新交接：分開解說

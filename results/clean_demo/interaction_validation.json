@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "tests": [
+    "offline playback",
+    "method switch preserves position",
+    "view switch preserves position",
+    "pause/play",
+    "mobile no horizontal overflow",
+    "no page errors"
+  ]
+}

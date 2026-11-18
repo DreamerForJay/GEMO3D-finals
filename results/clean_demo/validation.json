@@ -1,0 +1,123 @@
+{
+  "status": "passed",
+  "videos": [
+    {
+      "video": "front_A",
+      "decoded_frames": 300,
+      "fps": 30.0,
+      "shape": [
+        420,
+        1242
+      ]
+    },
+    {
+      "video": "bev_A",
+      "decoded_frames": 300,
+      "fps": 30.0,
+      "shape": [
+        684,
+        640
+      ]
+    },
+    {
+      "video": "front_D",
+      "decoded_frames": 300,
+      "fps": 30.0,
+      "shape": [
+        420,
+        1242
+      ]
+    },
+    {
+      "video": "bev_D",
+      "decoded_frames": 300,
+      "fps": 30.0,
+      "shape": [
+        684,
+        640
+      ]
+    },
+    {
+      "video": "front_F_no_tightfit",
+      "decoded_frames": 300,
+      "fps": 30.0,
+      "shape": [
+        420,
+        1242
+      ]
+    },
+    {
+      "video": "bev_F_no_tightfit",
+      "decoded_frames": 300,
+      "fps": 30.0,
+      "shape": [
+        684,
+        640
+      ]
+    },
+    {
+      "video": "front_F",
+      "decoded_frames": 300,
+      "fps": 30.0,
+      "shape": [
+        420,
+        1242
+      ]
+    },
+    {
+      "video": "bev_F",
+      "decoded_frames": 300,
+      "fps": 30.0,
+      "shape": [
+        684,
+        640
+      ]
+    },
+    {
+      "video": "front_compensation",
+      "decoded_frames": 300,
+      "fps": 30.0,
+      "shape": [
+        840,
+        1242
+      ]
+    },
+    {
+      "video": "front_tightfit",
+      "decoded_frames": 300,
+      "fps": 30.0,
+      "shape": [
+        840,
+        1242
+      ]
+    },
+    {
+      "video": "bev_compensation",
+      "decoded_frames": 300,
+      "fps": 30.0,
+      "shape": [
+        684,
+        1280
+      ]
+    },
+    {
+      "video": "bev_tightfit",
+      "decoded_frames": 300,
+      "fps": 30.0,
+      "shape": [
+        684,
+        1280
+      ]
+    }
+  ],
+  "max_metric_iou_difference": 0.0,
+  "max_pixel_vs_metric_iou_difference": 7.216936268594765e-07,
+  "mapping": "all 199 image IDs retained",
+  "hashes": "all manifest assets verified",
+  "summary": "recomputed controlled pairs",
+  "projection_visual_audit": [
+    "000000",
+    "000110",
+    "000170"
+  ]
+}

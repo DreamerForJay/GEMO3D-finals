@@ -1,0 +1,102 @@
+{
+  "front_A": {
+    "view": "front",
+    "methods": [
+      "A"
+    ],
+    "video": "front_A.mp4",
+    "poster": "front_A.jpg"
+  },
+  "bev_A": {
+    "view": "bev",
+    "methods": [
+      "A"
+    ],
+    "video": "bev_A.mp4",
+    "poster": "bev_A.jpg"
+  },
+  "front_D": {
+    "view": "front",
+    "methods": [
+      "D"
+    ],
+    "video": "front_D.mp4",
+    "poster": "front_D.jpg"
+  },
+  "bev_D": {
+    "view": "bev",
+    "methods": [
+      "D"
+    ],
+    "video": "bev_D.mp4",
+    "poster": "bev_D.jpg"
+  },
+  "front_F_no_tightfit": {
+    "view": "front",
+    "methods": [
+      "F_no_tightfit"
+    ],
+    "video": "front_F_no_tightfit.mp4",
+    "poster": "front_F_no_tightfit.jpg"
+  },
+  "bev_F_no_tightfit": {
+    "view": "bev",
+    "methods": [
+      "F_no_tightfit"
+    ],
+    "video": "bev_F_no_tightfit.mp4",
+    "poster": "bev_F_no_tightfit.jpg"
+  },
+  "front_F": {
+    "view": "front",
+    "methods": [
+      "F"
+    ],
+    "video": "front_F.mp4",
+    "poster": "front_F.jpg"
+  },
+  "bev_F": {
+    "view": "bev",
+    "methods": [
+      "F"
+    ],
+    "video": "bev_F.mp4",
+    "poster": "bev_F.jpg"
+  },
+  "front_compensation": {
+    "view": "front",
+    "methods": [
+      "A",
+      "D"
+    ],
+    "video": "front_compensation.mp4",
+    "poster": "front_compensation.jpg"
+  },
+  "front_tightfit": {
+    "view": "front",
+    "methods": [
+      "F_no_tightfit",
+      "F"
+    ],
+    "video": "front_tightfit.mp4",
+    "poster": "front_tightfit.jpg"
+  },
+  "bev_compensation": {
+    "view": "bev",
+    "methods": [
+      "A",
+      "D"
+    ],
+    "video": "bev_compensation.mp4",
+    "poster": "bev_compensation.jpg"
+  },
+  "bev_tightfit": {
+    "view": "bev",
+    "methods": [
+      "F_no_tightfit",
+      "F"
+    ],
+    "video": "bev_tightfit.mp4",
+    "poster": "bev_tightfit.jpg"
+  }
+}
