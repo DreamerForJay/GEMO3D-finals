@@ -1,5 +1,7 @@
 # GEMO3D 決賽補充實驗（實驗室伺服器執行用）
 
+> ⚠ 目前最優先：Demo 影片／圖表素材需求見 [`docs/DEMO_ASSETS.md`](docs/DEMO_ASSETS.md)。
+
 > **2026-11-15 更新：下一階段實驗清單（審查建議整理、依優先順序）見 [docs/NEXT_EXPERIMENTS.md](docs/NEXT_EXPERIMENTS.md)，請優先執行。**
 
 
