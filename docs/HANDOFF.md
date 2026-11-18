@@ -2,7 +2,16 @@
 
 更新日期：2026-11-18（Asia/Taipei）。數值與證據以 [RESULTS.md](../RESULTS.md) 為準。
 
-## 2026-11-18 最新交接：Demo 素材
+## 2026-11-18 最新交接：互動 v2
+
+先讀 [參考頁／A–M對照](DEMO_REFERENCE_REVIEW.md)。新增6個曲線與幾何互動面板、6支真精華剪輯、6張四幀橫排圖及可排序消融表。所有主影片與原測量未更動。
+
+- 新精華 `*_highlight_short.mp4` 是固定3–13秒＋2秒片段卡；只可引用相應 `*_highlight_summary.json` 的數字，不能拿全199幀摘要冒充片段數據。
+- build_demo_highlights.py處理剪輯，build_demo_catalog.py自動呼叫enhance_demo_catalog.py。勿直接反覆enhance；先重建base。demo_interactions.js是來源，results/demo/interactions.js為複本。
+- 互動以frame_mapping查來源幀，seek採輸出幀中心防止時間量化錯前一幀；缺值保持null。互動與影片驗證紀錄分開保存，manifest排除這兩份後生成驗證報告。
+- 18支影片、60 PNG、23 JPG；G-G1可用，正式跨方法排行榜、多情境捕捉仍未完成。雲端v2上傳收據另附，不能覆寫v1。
+
+## 2026-11-18 v1交接：Demo 素材
 
 雲端交付完成：[ZIP](https://drive.google.com/file/d/1iRgBjb9RdAtCWrnTYF72UfBBu0S2FfvC/view?usp=drivesdk)（68,178,454 bytes，內容commit `77431e1`）；[回讀驗證紀錄](../results/cloud_upload_2026-11-18_demo.json)。ZIP 是不可變快照，不包含本次上傳收據，請另讀最新 GitHub。未更動分享權限；遠端checksum未提供。
 

@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "browser": "headless Chromium; file:// offline",
+  "panels": 6,
+  "checks": [
+    "missing errors stay null",
+    "mapping lookup",
+    "geometry corners",
+    "seek to source frame 100",
+    "click curve seeks frame 50",
+    "mobile no horizontal overflow",
+    "summary phase",
+    "3D rotation",
+    "method switching",
+    "metric sort",
+    "before/after slider",
+    "seven-step slider",
+    "six print contact sheets",
+    "no page errors"
+  ]
+}

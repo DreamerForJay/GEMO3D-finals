@@ -19,6 +19,7 @@ status=[
  ('G-E1','audit_preview','四方法前視／BEV 各 18 秒＋12 秒版；歷史基準設定未核實，禁止作公平排行榜。'),
  ('G-F1','ready','6 組同尺寸成對 PNG、影片與逐幀 CSV；A→D 只改補償，非完整 F。'),
  ('G-D1','partial','7200 筆模型比例網格可供互動圖；缺原始高度資料與 360° 實測掃描。'),
+ ('G-G1','ready','各影片下方可切換方法的BEV／3D線框檢視，支援旋轉；不是稠密場景重建。'),
  ('G-H1','blocked','舊 165 筆來源混不同 GT，不能製成可信排行榜；見 historical_165_audit.md。'),
  ('G-I1','partial','深度分箱、逐幀觀測角與誤差 CSV、分析 PNG；缺受控 pitch 敏感度。'),
  ('G-M1','ready','100 幀實際計時及同次預測；RTX 3060 共享，89.241ms／11.206fps；影片為離線播放。'),
@@ -34,7 +35,7 @@ for p in OUT.glob('*/summary.json'):
  x=json.loads(p.read_text());x['capture_note']='Dataset metadata has non-increasing timestamps/simulator frame IDs at 000091→000092, 000094→000095, 000097→000098. Ordered image IDs do not prove strict temporal synchronization.';savej(p,x)
 k=OUT/'G-K1/README.md'
 if k.exists():
- txt=k.read_text().replace('../tightfit_ablation.csv','../../tightfit_ablation.csv').replace('../controlled_20261116/pairs.csv','../../controlled_20261116/pairs.csv');k.write_text(txt)
+ txt=k.read_text().replace('在../tightfit_ablation.csv','在../../tightfit_ablation.csv').replace('在../controlled_20261116/pairs.csv','在../../controlled_20261116/pairs.csv');k.write_text(txt)
 parts=['''<!doctype html><html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GEMO3D 素材預覽</title><style>body{background:#0d1726;color:#e8f0f8;font:17px system-ui;max-width:1200px;margin:auto;padding:30px}a{color:#8cc1ff}section{border-top:1px solid #43546a;padding:28px 0}video,img{max-width:100%;height:auto}video{width:100%;background:black}label,select{display:block;margin:14px 0}input{width:100%}.pair{position:relative}.pair img{display:block;width:100%}.pair .after{position:absolute;inset:0;clip-path:inset(0 0 0 50%)}.warn{color:#ffbd72}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}</style><h1>GEMO3D｜Demo 與網頁素材</h1><p>2026-11-18 · 離線交付預覽 · <a href="README.md">交接說明</a> · <a href="catalog.json">整合清單 JSON</a></p><p class="warn">30 fps 是影片播放速度。歷史基準設定未核實；四方法預覽不能當公平排行榜。素材依影像 ID 排列，捕捉時間有三處異常。</p>''']
 for item in assets:
  c=item['code'];parts.append(f'<section id="{c}"><h2>{c} · {item["status"]}</h2><p>{html.escape(item["note"])}</p>')
@@ -63,6 +64,8 @@ for f in range(199):
 for variant in ['A','D','F']:
  q=ROOT/f'benchmark_output/controlled_20261116/{variant}/pred_meta.csv';sources.append(dict(path=str(q),sha256=hashlib.sha256(q.read_bytes()).hexdigest()))
 savej(OUT/'source_hashes.json',sources)
+from enhance_demo_catalog import enhance
+enhance()
 # Artifact checksum manifest excludes itself and post-build validation report.
-files={str(p.relative_to(OUT)):dict(bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in sorted(OUT.rglob('*')) if p.is_file() and p.name not in ['manifest.json','validation.json']};savej(OUT/'manifest.json',dict(files=files,requirements_revision='4bf3a08',inference_revision='dca5aa6',scripts={f:hashlib.sha256((ROOT/f).read_bytes()).hexdigest() for f in ['build_demo_assets.py','build_demo_catalog.py']}))
+files={str(p.relative_to(OUT)):dict(bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in sorted(OUT.rglob('*')) if p.is_file() and p.name not in ['manifest.json','validation.json','interaction_validation.json']};savej(OUT/'manifest.json',dict(files=files,requirements_revision='4bf3a08',inference_revision='dca5aa6',scripts={f:hashlib.sha256((ROOT/f).read_bytes()).hexdigest() for f in ['build_demo_assets.py','build_demo_catalog.py','enhance_demo_catalog.py','demo_interactions.js','build_demo_highlights.py']}))
 print('Catalog:',len(assets),'assets;',len(files),'files')

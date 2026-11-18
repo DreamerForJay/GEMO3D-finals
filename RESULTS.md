@@ -1,6 +1,16 @@
 # 決賽實驗與 Demo 更新 — 2026-11-18
 
-## 最新重點摘要｜Demo 素材（2026-11-18）
+## 最新補強｜參考頁與互動 v2（2026-11-18）
+
+- **重新查閱八個參考頁並落實互動**：[A–M對照與來源](docs/DEMO_REFERENCE_REVIEW.md)。6個主影片面板新增點曲線跳幀、來源幀滑桿、方法切換、BEV／可旋轉3D線框。仍為既有幾何框，非稠密重建。
+- **另剪6支真正12秒精華版**：固定取完整版3–13秒，再加2秒片段數據卡；各有 `_highlight_per_frame.csv`、`_highlight_summary.json` 與映射。片段RMSE獨立重算，非沿用整段；原12秒整段加速版保留並區分。現在共18支影片。
+- **列印及表格**：新增6張3200×520四幀橫排PNG（含四方法BEV版），共60張PNG；可排序A/D/F消融表保留配對與漏檢，仍不製作未核實的跨方法排行榜。
+- **驗證**：18支影片完整解碼與CSV摘要驗算通過；離線file:// Chromium互動測試通過，包括影格100定位、片尾、方法／視角切換、排序、前後拖曳與七步切換。[影片驗證](results/demo/validation.json)／[互動驗證](results/demo/interaction_validation.json)。
+- 數據與限制不變：原論文165來源、追車視角、多情境、360°原始高度、真實連續序列仍缺。這次新增呈現方式與片段統計，沒有新模型推論，也尚未部署網站。
+
+重建順序：`python build_demo_highlights.py` → `python build_demo_catalog.py` → `python validate_demo_assets.py`；互動測試 `node validate_demo_interactions.cjs`。新版雲端收據於上傳後另行記錄，保留v1快照。
+
+## v1 重點摘要｜Demo 素材（2026-11-18）
 
 - **已製作 12 支影片、54 張 PNG、23 張 JPG**：Teaser、相機視角、四方法查核預覽、補償前後、同次計時，另含 21 張方法步驟圖、分析與失敗案例。[素材入口](results/demo/README.md)／[網站整合 JSON](results/demo/catalog.json)。解壓後開啟 `results/demo/index.html` 即可離線播放、拖曳對照及切換步驟。
 - **既有實驗輸出重製成可追溯素材，沒有新推論**：新控制 A→D 深度 RMSE 1.694→0.762m；完整 F 1.305m。逐幀 CSV 保留漏檢與未配對預測；片尾數據只計配對物件，並報漏檢數。

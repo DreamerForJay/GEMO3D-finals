@@ -16,10 +16,10 @@ for p in sorted(OUT.rglob('*.mp4')):
  assert 'Video: h264' in probe and 'yuv420p' in probe
  prefix=p.stem.replace('_short','');mapping=list(csv.DictReader((p.parent/(prefix+'_frame_mapping.csv')).open()));mapping=[r for r in mapping if r['video']==p.name]
  assert len(mapping)==n and sum(r['phase']=='summary' for r in mapping)==60
- summary=json.loads((p.parent/'summary.json').read_text());assert set(r['source_frame'] for r in mapping if r['phase']=='data')==set(summary['source_frames'])
+ summary=json.loads((p.parent/(prefix+'_summary.json' if '_highlight' in prefix else 'summary.json')).read_text());assert set(r['source_frame'] for r in mapping if r['phase']=='data')==set(summary['source_frames'])
  report['videos'].append(dict(file=str(p.relative_to(OUT)),frames=n,fps=fps,width=w,height=h,bytes=p.stat().st_size,codec='h264',pixel_format='yuv420p'));print('PASS',p,n,flush=True)
-for p in OUT.glob('*/per_frame.csv'):
- summary=json.loads((p.parent/'summary.json').read_text());rows=list(csv.DictReader(p.open()))
+for p in OUT.glob('*/*per_frame.csv'):
+ summary_path=p.parent/(p.name.replace('_per_frame.csv','_summary.json') if '_highlight_' in p.name else 'summary.json');summary=json.loads(summary_path.read_text());rows=list(csv.DictReader(p.open()))
  for m in summary['methods']:
   r=[r for r in rows if r['method']==m['method']];matched=[x for x in r if x['status']=='matched'];d=np.array([float(x['depth_error']) for x in matched])
   assert len(matched)==m['matches'];assert sum(x['status']=='missed_gt' for x in r)==m['unmatched_gt'];assert sum(x['status']=='unmatched_prediction' for x in r)==m['unmatched_predictions']

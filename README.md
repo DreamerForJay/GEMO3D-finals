@@ -1,6 +1,8 @@
 # GEMO3D 決賽補充實驗（實驗室伺服器執行用）
 
-> **2026-11-18 Demo 素材已交付**：[雲端下載 ZIP](https://drive.google.com/file/d/1iRgBjb9RdAtCWrnTYF72UfBBu0S2FfvC/view?usp=drivesdk) · [素材清單／限制](results/demo/README.md) · [最新成果摘要](RESULTS.md) · [機器整合清單](results/demo/catalog.json)。含12支1080p影片、方法步驟、補償拖曳圖、逐幀數據；離線預覽 `results/demo/index.html`。
+> **2026-11-18 Demo v2**：新增曲線跳幀、方法／3D框切換、6支真正精華剪輯與6張列印橫排圖。[參考頁對照](docs/DEMO_REFERENCE_REVIEW.md)。
+
+> **v1 雲端快照**：[雲端下載 ZIP](https://drive.google.com/file/d/1iRgBjb9RdAtCWrnTYF72UfBBu0S2FfvC/view?usp=drivesdk) · [素材清單／限制](results/demo/README.md) · [最新成果摘要](RESULTS.md) · [機器整合清單](results/demo/catalog.json)。含12支1080p影片、方法步驟、補償拖曳圖、逐幀數據；離線預覽 `results/demo/index.html`。
 
 > ⚠ 目前最優先：Demo 影片／圖表素材需求見 [`docs/DEMO_ASSETS.md`](docs/DEMO_ASSETS.md)。
 

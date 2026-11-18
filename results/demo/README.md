@@ -29,6 +29,7 @@ python validate_demo_assets.py
 | G-E1 | audit_preview | 四方法前視／BEV 各 18 秒＋12 秒版；歷史基準設定未核實，禁止作公平排行榜。 |
 | G-F1 | ready | 6 組同尺寸成對 PNG、影片與逐幀 CSV；A→D 只改補償，非完整 F。 |
 | G-D1 | partial | 7200 筆模型比例網格可供互動圖；缺原始高度資料與 360° 實測掃描。 |
+| G-G1 | ready | 各影片下方可切換方法的BEV／3D線框檢視，支援旋轉；不是稠密場景重建。 |
 | G-H1 | blocked | 舊 165 筆來源混不同 GT，不能製成可信排行榜；見 historical_165_audit.md。 |
 | G-I1 | partial | 深度分箱、逐幀觀測角與誤差 CSV、分析 PNG；缺受控 pitch 敏感度。 |
 | G-M1 | ready | 100 幀實際計時及同次預測；RTX 3060 共享，89.241ms／11.206fps；影片為離線播放。 |
@@ -39,3 +40,9 @@ python validate_demo_assets.py
 | G-R1 | blocked | 缺有時間資訊的真實 KITTI raw/tracking 連續序列。 |
 
 原始整體架構圖任務 C 依使用者要求跳過；G-C1 是本次新增的逐步輸出素材，兩者不同。
+
+## v2 互動呈現
+
+逐幀曲線支援點擊定位、影格滑桿；以影片映射表定位，非假設每來源幀都佔1/30秒。互動BEV／3D線框可切換方法與旋轉。這是既有框的幾何檢視，不是稠密場景重建。A/D/F消融表可排序；未製造跨方法排行榜。`print/`提供六張3200×520四幀橫排PNG，包括四方法BEV版。原12秒版為整段加速呈現；另有6支 `_highlight_short.mp4` 真正片段剪輯：固定擷取完整版3–13秒，加上2秒片段數據卡（重算該片段unique source frames的RMSE）。時段為預先固定規則，不依誤差挑選。
+
+先執行原build_demo_catalog.py，它會自動呼叫enhance_demo_catalog.enhance；不要單獨重複套用enhance。互動資料由已交付CSV／geometry.json內嵌為JS，可file://離線開啟。

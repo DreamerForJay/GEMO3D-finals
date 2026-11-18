@@ -15,6 +15,10 @@
       "G-A1/summary.json",
       "G-A1/video.mp4",
       "G-A1/video_frame_mapping.csv",
+      "G-A1/video_highlight_frame_mapping.csv",
+      "G-A1/video_highlight_per_frame.csv",
+      "G-A1/video_highlight_short.mp4",
+      "G-A1/video_highlight_summary.json",
       "G-A1/video_short.mp4"
     ]
   },
@@ -37,6 +41,10 @@
       "G-B1/summary.json",
       "G-B1/video.mp4",
       "G-B1/video_frame_mapping.csv",
+      "G-B1/video_highlight_frame_mapping.csv",
+      "G-B1/video_highlight_per_frame.csv",
+      "G-B1/video_highlight_short.mp4",
+      "G-B1/video_highlight_summary.json",
       "G-B1/video_short.mp4"
     ]
   },
@@ -81,6 +89,10 @@
       "G-E1/README.md",
       "G-E1/bev.mp4",
       "G-E1/bev_frame_mapping.csv",
+      "G-E1/bev_highlight_frame_mapping.csv",
+      "G-E1/bev_highlight_per_frame.csv",
+      "G-E1/bev_highlight_short.mp4",
+      "G-E1/bev_highlight_summary.json",
       "G-E1/bev_short.mp4",
       "G-E1/geometry.json",
       "G-E1/keyframes/000000.png",
@@ -92,6 +104,10 @@
       "G-E1/summary.json",
       "G-E1/video.mp4",
       "G-E1/video_frame_mapping.csv",
+      "G-E1/video_highlight_frame_mapping.csv",
+      "G-E1/video_highlight_per_frame.csv",
+      "G-E1/video_highlight_short.mp4",
+      "G-E1/video_highlight_summary.json",
       "G-E1/video_short.mp4"
     ]
   },
@@ -124,6 +140,10 @@
       "G-F1/summary.json",
       "G-F1/video.mp4",
       "G-F1/video_frame_mapping.csv",
+      "G-F1/video_highlight_frame_mapping.csv",
+      "G-F1/video_highlight_per_frame.csv",
+      "G-F1/video_highlight_short.mp4",
+      "G-F1/video_highlight_summary.json",
       "G-F1/video_short.mp4"
     ]
   },
@@ -136,6 +156,12 @@
       "G-D1/model_ratio_grid.csv",
       "G-D1/summary.json"
     ]
+  },
+  {
+    "code": "G-G1",
+    "status": "ready",
+    "note": "各影片下方可切換方法的BEV／3D線框檢視，支援旋轉；不是稠密場景重建。",
+    "files": []
   },
   {
     "code": "G-H1",
@@ -175,6 +201,10 @@
       "G-M1/timing_provenance.json",
       "G-M1/video.mp4",
       "G-M1/video_frame_mapping.csv",
+      "G-M1/video_highlight_frame_mapping.csv",
+      "G-M1/video_highlight_per_frame.csv",
+      "G-M1/video_highlight_short.mp4",
+      "G-M1/video_highlight_summary.json",
       "G-M1/video_short.mp4"
     ]
   },

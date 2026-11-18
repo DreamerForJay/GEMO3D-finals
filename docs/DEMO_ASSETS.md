@@ -85,3 +85,7 @@ results/demo/<代號>/
 ## 2026-11-18 雲端素材包
 
 [下載 Demo 素材 ZIP](https://drive.google.com/file/d/1iRgBjb9RdAtCWrnTYF72UfBBu0S2FfvC/view?usp=drivesdk)：12支影片、54 PNG、23 JPG與CSV／JSON，內含離線預覽 `results/demo/index.html`。大小68,178,454 bytes；內容commit `77431e1`。[逐項狀態](../results/demo/README.md)／[上傳驗證紀錄](../results/cloud_upload_2026-11-18_demo.json)。G-E1只是歷史基準查核預覽；缺資料的項目仍標部分或待補，網站不可據此宣稱全部實驗完成。
+
+## v2 呈現補強
+
+已重新查閱八個參考頁，見[參考／A–M對照](DEMO_REFERENCE_REVIEW.md)。G-G1互動BEV／可旋轉3D框可用；每個主影片下方曲線可點擊跳至來源影格。6支 `_highlight_short.mp4` 才是真正固定3–13秒剪輯（加2秒片段數據卡），各有獨立CSV／摘要；原12秒版是整段加速。`results/demo/print/`有6張四幀橫排圖。18支影片已驗證；此互動預覽尚未部署正式網站。
