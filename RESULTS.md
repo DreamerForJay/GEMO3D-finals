@@ -1,5 +1,15 @@
 # 決賽實驗與 Demo 更新 — 2026-11-18
 
+## 2026-11-18 大字中英文版與朝向機制
+
+- 新增 `results/bilingual_demo/`：原12種素材各中／英文（24支10秒），數值54px、獨立142px標頭；綠虛線GT／紅實線預測，底圖及控制結果不變。另有朝向支撐點／深度偏差兩片各兩語（4支12秒），一次只解釋一個環節。
+- 朝向片為明示的長方體幾何示意：固定Z10m、H1.511/W2.128/L4.902m、底部Y1.65m、fy721.5377px，只改yaw0–180°。黃點追蹤投影上下極值，青色車頭標記及角度盤讓旋轉清楚。不是實測轉彎或新模型推論。
+- 定義h2D=max(v)-min(v)、h_ideal=fyH/Z、r=h2D/h_ideal、Z_pinhole=Z/r。此例針孔估計約7.05–8.78m，真值固定10m；純示意幅度，不是模型測試成績。原訓練h3D,proj幾何定義仍待建模腳本核實，不把h_ideal冒充已驗證的訓練分母。
+- 純旋轉可改變上下支撐點及框高；不能推廣此長方體特定幅度／偏差方向至所有車型、輪廓或姿態。沒有GT比例校正冒充模型效果。詳細定義見 [素材說明](results/bilingual_demo/README.md)。
+- 驗證完成：28片完整解碼，實測CSV/JSON與clean版逐byte相同；360個合成角度用獨立解析式驗算，語言切換／播放／手機寬度測試通過。見 `results/bilingual_demo/validation.json` 與 `interaction_validation.json`。
+- 重建：`python build_bilingual_demo.py` → `python build_bilingual_catalog.py`；數據與完整解碼驗證：`python validate_bilingual_demo.py`，另有離線頁測試 `node validate_bilingual_page.cjs`。原clean版保留。
+
+
 > **清爽版雲端已更新**：[下載21.93MB素材包](https://drive.google.com/file/d/1vDXZd7Y4cbov-cxtOhR-fQdA01PjWCUs/view?usp=drivesdk)（12片＋獨立圖表＋離線頁）。內容commit `0b631d2`，21,927,181 bytes；ZIP與本機SHA256、Drive回讀檔名／大小／資料夾已核對，遠端checksum未提供。舊包與分享範圍保留。
 
 ## 2026-11-18 清爽版：真實俯視 RGB + 分開比較

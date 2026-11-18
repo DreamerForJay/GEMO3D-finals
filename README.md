@@ -1,5 +1,8 @@
 # GEMO3D 決賽補充實驗（實驗室伺服器執行用）
 
+> **最新大字中英文版**：[28支素材與定義](results/bilingual_demo/README.md)，離線開啟 `results/bilingual_demo/index.html`。朝向支撐點與針孔偏差分兩片，明示幾何示意；實測片數據不變。
+
+
 > **清爽版雲端已更新**：[下載21.93MB素材包](https://drive.google.com/file/d/1vDXZd7Y4cbov-cxtOhR-fQdA01PjWCUs/view?usp=drivesdk)（12片＋獨立圖表＋離線頁）。內容commit `0b631d2`，21,927,181 bytes；ZIP與本機SHA256、Drive回讀檔名／大小／資料夾已核對，遠端checksum未提供。舊包與分享範圍保留。
 
 > **最新清爽版（2026-11-18）**：[獨立前視／實際俯視比較素材](results/clean_demo/README.md)。12支10秒影片，綠虛線GT／紅實線預測；影片只有方法名＋當幀指標，圖表移到影片外。離線開啟 `results/clean_demo/index.html`。

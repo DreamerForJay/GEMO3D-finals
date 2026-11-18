@@ -1,0 +1,149 @@
+{
+  "status": "passed",
+  "decoded_videos": [
+    {
+      "file": "bev_A_en.mp4",
+      "frames": 300,
+      "shape": null
+    },
+    {
+      "file": "bev_A_zh.mp4",
+      "frames": 300,
+      "shape": null
+    },
+    {
+      "file": "bev_D_en.mp4",
+      "frames": 300,
+      "shape": null
+    },
+    {
+      "file": "bev_D_zh.mp4",
+      "frames": 300,
+      "shape": null
+    },
+    {
+      "file": "bev_F_en.mp4",
+      "frames": 300,
+      "shape": null
+    },
+    {
+      "file": "bev_F_no_tightfit_en.mp4",
+      "frames": 300,
+      "shape": null
+    },
+    {
+      "file": "bev_F_no_tightfit_zh.mp4",
+      "frames": 300,
+      "shape": null
+    },
+    {
+      "file": "bev_F_zh.mp4",
+      "frames": 300,
+      "shape": null
+    },
+    {
+      "file": "bev_compensation_en.mp4",
+      "frames": 300,
+      "shape": null
+    },
+    {
+      "file": "bev_compensation_zh.mp4",
+      "frames": 300,
+      "shape": null
+    },
+    {
+      "file": "bev_tightfit_en.mp4",
+      "frames": 300,
+      "shape": null
+    },
+    {
+      "file": "bev_tightfit_zh.mp4",
+      "frames": 300,
+      "shape": null
+    },
+    {
+      "file": "front_A_en.mp4",
+      "frames": 300,
+      "shape": null
+    },
+    {
+      "file": "front_A_zh.mp4",
+      "frames": 300,
+      "shape": null
+    },
+    {
+      "file": "front_D_en.mp4",
+      "frames": 300,
+      "shape": null
+    },
+    {
+      "file": "front_D_zh.mp4",
+      "frames": 300,
+      "shape": null
+    },
+    {
+      "file": "front_F_en.mp4",
+      "frames": 300,
+      "shape": null
+    },
+    {
+      "file": "front_F_no_tightfit_en.mp4",
+      "frames": 300,
+      "shape": null
+    },
+    {
+      "file": "front_F_no_tightfit_zh.mp4",
+      "frames": 300,
+      "shape": null
+    },
+    {
+      "file": "front_F_zh.mp4",
+      "frames": 300,
+      "shape": null
+    },
+    {
+      "file": "front_compensation_en.mp4",
+      "frames": 300,
+      "shape": null
+    },
+    {
+      "file": "front_compensation_zh.mp4",
+      "frames": 300,
+      "shape": null
+    },
+    {
+      "file": "front_tightfit_en.mp4",
+      "frames": 300,
+      "shape": null
+    },
+    {
+      "file": "front_tightfit_zh.mp4",
+      "frames": 300,
+      "shape": null
+    },
+    {
+      "file": "yaw_depth_en.mp4",
+      "frames": 360,
+      "shape": null
+    },
+    {
+      "file": "yaw_depth_zh.mp4",
+      "frames": 360,
+      "shape": null
+    },
+    {
+      "file": "yaw_support_en.mp4",
+      "frames": 360,
+      "shape": null
+    },
+    {
+      "file": "yaw_support_zh.mp4",
+      "frames": 360,
+      "shape": null
+    }
+  ],
+  "synthetic_geometry": "360 samples checked against independent analytic extrema; Z*r identity verified",
+  "controlled_metrics": "byte-identical CSV/JSON to clean version",
+  "languages": "underlying RGB overlays identical on first/middle/last samples",
+  "sha256": "all listed artifacts verified"
+}

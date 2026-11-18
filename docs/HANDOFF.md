@@ -1,5 +1,10 @@
 # AI 協作交接
 
+## 最新交接：中英文大字版
+
+使用 `results/bilingual_demo/index.html`，28片分開選語言／主題。build_bilingual_demo.py、build_bilingual_catalog.py生成；validate_bilingual_demo.py、validate_bilingual_page.cjs驗證。原clean不覆蓋。朝向影片為固定Z10m長方體精確投影，不是實測旋轉；h_ideal=fyH/Z不冒稱已核實原Blender h3D,proj。黃支撐點、青車頭、方向盤；不能把合成yaw_geometry.csv混入實測CSV。原轉角實測與訓練分母限制仍在。
+
+
 > **清爽版雲端已更新**：[下載21.93MB素材包](https://drive.google.com/file/d/1vDXZd7Y4cbov-cxtOhR-fQdA01PjWCUs/view?usp=drivesdk)（12片＋獨立圖表＋離線頁）。內容commit `0b631d2`，21,927,181 bytes；ZIP與本機SHA256、Drive回讀檔名／大小／資料夾已核對，遠端checksum未提供。舊包與分享範圍保留。
 
 ## 2026-11-18 最新：清爽比較為預設入口
