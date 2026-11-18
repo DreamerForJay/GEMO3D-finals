@@ -1,5 +1,7 @@
 # 決賽實驗與 Demo 更新 — 2026-11-18
 
+> **清爽版雲端已更新**：[下載21.93MB素材包](https://drive.google.com/file/d/1vDXZd7Y4cbov-cxtOhR-fQdA01PjWCUs/view?usp=drivesdk)（12片＋獨立圖表＋離線頁）。內容commit `0b631d2`，21,927,181 bytes；ZIP與本機SHA256、Drive回讀檔名／大小／資料夾已核對，遠端checksum未提供。舊包與分享範圍保留。
+
 ## 2026-11-18 清爽版：真實俯視 RGB + 分開比較
 
 - 依最新回饋取代密集解說作為預設入口；舊包保留。12支10秒片＝四設定×前視／俯視＋A/D、F_no_tightfit/F兩組×兩視角。前視上下比較、俯視左右比較，同來源image ID；沒有曲線、長字或片尾卡。綠虛線GT，紅實線預測。

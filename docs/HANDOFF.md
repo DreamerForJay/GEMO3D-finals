@@ -1,5 +1,7 @@
 # AI 協作交接
 
+> **清爽版雲端已更新**：[下載21.93MB素材包](https://drive.google.com/file/d/1vDXZd7Y4cbov-cxtOhR-fQdA01PjWCUs/view?usp=drivesdk)（12片＋獨立圖表＋離線頁）。內容commit `0b631d2`，21,927,181 bytes；ZIP與本機SHA256、Drive回讀檔名／大小／資料夾已核對，遠端checksum未提供。舊包與分享範圍保留。
+
 ## 2026-11-18 最新：清爽比較為預設入口
 
 使用者拒絕資訊密集影片；改用 `results/clean_demo/index.html`。12片只有方法名及一個指標，曲線另外放。不要把曲線、BEV示意、三項誤差再塞回同片。綠虛線GT／紅實線預測。

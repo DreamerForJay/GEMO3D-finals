@@ -1,0 +1,16 @@
+{
+  "file": "gemo3d_clean_2026-11-18_0b631d2.zip",
+  "content_commit": "0b631d28968de19eafd22110cce90d86d5ec7ee3",
+  "bytes": 21927181,
+  "local_sha256": "7197d52ec65b37998e67a727eb5e05383316ae9e5b31c7df91a1a5a61770cb06",
+  "drive_id": "1vDXZd7Y4cbov-cxtOhR-fQdA01PjWCUs",
+  "url": "https://drive.google.com/file/d/1vDXZd7Y4cbov-cxtOhR-fQdA01PjWCUs/view?usp=drivesdk",
+  "parent_id": "1KhSc-MnMtK0IDHQUKcLMGUAKOs2ynonz",
+  "verification": {
+    "zip_integrity": "passed",
+    "remote_name_size_parent": "matched",
+    "remote_checksum": "not returned",
+    "sharing": "unchanged; access not verified"
+  },
+  "note": "Immutable snapshot; receipt is tracked in subsequent commit. Existing versions retained."
+}
