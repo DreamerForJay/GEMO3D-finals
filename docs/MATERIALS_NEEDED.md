@@ -30,3 +30,5 @@
 ### 最新v2下載
 
 [互動素材v2 ZIP](https://drive.google.com/file/d/1Cgbtkw47FfzurnFNdHKa9XPaHhx1RqnX/view?usp=drivesdk)（79,758,680 bytes；內容commit b199216），含18支影片、60 PNG、23 JPG、離線互動頁與CSV／JSON。[上傳回讀紀錄](../results/cloud_upload_2026-11-18_demo_v2.json)。解壓開啟 results/demo/index.html；新精華影片名稱含 `_highlight_short`，數字對應各自的片段摘要。
+
+[最新7支分開解說影片下載](https://drive.google.com/file/d/12tqZDcKPr3Qzl1ICrto0_j_lHEvQsg_c/view?usp=drivesdk)，13,440,768 bytes；[說明與來源](../results/explained_demo/README.md)。Full／A／D／停用tightfit各自獨立，另含實際失敗、朝向觀察及人工幾何示意；後者不是模型因果驗證。

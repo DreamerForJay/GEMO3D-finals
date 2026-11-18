@@ -97,3 +97,5 @@ results/demo/<代號>/
 ## 最新：各配置分開＋誤差易讀解說
 
 [7支獨立影片](../results/explained_demo/README.md)：Full／未補償／Rank-1／停用tightfit分開；中文框旁Z與ry、圖例、三種誤差與曲線解說。另有實際tightfit失敗、實測朝向誤差觀察、明確標示人工的yaw幾何示意。未取得實際轉角因果驗證素材，不以示意片充數。
+
+[最新7支分開解說影片下載](https://drive.google.com/file/d/12tqZDcKPr3Qzl1ICrto0_j_lHEvQsg_c/view?usp=drivesdk)，13,440,768 bytes；[說明與來源](../results/explained_demo/README.md)。Full／A／D／停用tightfit各自獨立，另含實際失敗、朝向觀察及人工幾何示意；後者不是模型因果驗證。

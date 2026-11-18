@@ -1,0 +1,16 @@
+{
+  "local_path": "/home/e114/Desktop/gemo3d_explained_2026-11-18_2d01bdb.zip",
+  "bytes": 13440768,
+  "sha256": "7ee8ef35cb9308220fa129b7852e0ce8cdf47f38fa26b0ba701778bcb832e2bd",
+  "content_commit": "2d01bdb268cac6f4582e076ece2dd155d4ee7b9f",
+  "zip_integrity": "passed",
+  "uploaded_at_utc": "2026-11-18T09:38:43.021968+00:00",
+  "drive_file_id": "12tqZDcKPr3Qzl1ICrto0_j_lHEvQsg_c",
+  "drive_folder_id": "1KhSc-MnMtK0IDHQUKcLMGUAKOs2ynonz",
+  "url": "https://drive.google.com/file/d/12tqZDcKPr3Qzl1ICrto0_j_lHEvQsg_c/view?usp=drivesdk",
+  "remote_size": 13440768,
+  "remote_name": "gemo3d_explained_2026-11-18_2d01bdb.zip",
+  "verification": "ZIP passed; local SHA256 computed; remote name/size/parent matched; remote checksum not returned or verified",
+  "sharing": "Unchanged existing folder permissions",
+  "scope": "Seven explained videos and their numerical sources; synthetic yaw intervention explicitly labelled; no weights/full dataset/PitchLab attachments"
+}

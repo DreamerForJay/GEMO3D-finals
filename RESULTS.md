@@ -2,6 +2,8 @@
 
 ## 2026-11-18 分開解說影片（最新）
 
+[雲端7片解說包](https://drive.google.com/file/d/12tqZDcKPr3Qzl1ICrto0_j_lHEvQsg_c/view?usp=drivesdk)（13,440,768 bytes，內容commit `2d01bdb`）；[上傳收據](results/cloud_upload_2026-11-18_explained.json)。ZIP及本機SHA256、雲端回讀檔名／大小／父資料夾已核對；遠端checksum未回傳。此包獨立新增，不覆寫v2。
+
 - 依使用者回饋，Full F、未補償A、僅Rank-1 D、停用tightfit各自獨立18秒；同199幀、同0–5m深度誤差縱軸、同0–40m BEV。Full在此是完整F管線，不是full矩陣補償變體。
 - 框旁以同色引線標Z（相機前向距離）與相機座標ry角度。藍實線＝預測、橘虛線＝GT；另顯示深度／3D中心／朝向角三種不同誤差。
 - 中文曲線說明：橫軸影格，縱軸誤差m（yaw專片明標°），白線是當前幀；越低越好，斷線是未配對，不是零。所有影片離線播放，不表示實際fps。

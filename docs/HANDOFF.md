@@ -10,7 +10,7 @@
 2. 藍框預測／橘虛線GT、Z與ry數值、三種誤差已分清。yaw_observed是觀測，不是受控轉彎／轉換錯誤因果證據。
 3. yaw_geometry只使用GT固定中心與尺寸人工旋轉。mapping的source_frame固定000110，simulation_sample另列，不冒充121張真實影像。角點RMS不是模型準確率。
 4. tightfit_failure以失敗說明挑前31幀，不是代表性整體排名；保留漏檢，從同幀F_no_tightfit／F比對。仍缺可核實實際轉角序列。
-5. 未追蹤PitchLab附件仍不屬本次包；雲端新版獨立保存，後續讀最新收據。
+5. [7片雲端包](https://drive.google.com/file/d/12tqZDcKPr3Qzl1ICrto0_j_lHEvQsg_c/view?usp=drivesdk)已回讀核對（13,440,768 bytes，內容commit 2d01bdb）；[收據](../results/cloud_upload_2026-11-18_explained.json)。既有v1/v2不覆寫；未追蹤PitchLab附件仍不屬本次包。
 
 ## 2026-11-18 最新交接：互動 v2
 
