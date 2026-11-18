@@ -26,3 +26,7 @@
 ## 2026-11-18 雲端素材包
 
 [下載 Demo 素材 ZIP](https://drive.google.com/file/d/1iRgBjb9RdAtCWrnTYF72UfBBu0S2FfvC/view?usp=drivesdk)：12支影片、54 PNG、23 JPG與CSV／JSON，內含離線預覽 `results/demo/index.html`。大小68,178,454 bytes；內容commit `77431e1`。[逐項狀態](../results/demo/README.md)／[上傳驗證紀錄](../results/cloud_upload_2026-11-18_demo.json)。G-E1只是歷史基準查核預覽；缺資料的項目仍標部分或待補，網站不可據此宣稱全部實驗完成。
+
+### 最新v2下載
+
+[互動素材v2 ZIP](https://drive.google.com/file/d/1Cgbtkw47FfzurnFNdHKa9XPaHhx1RqnX/view?usp=drivesdk)（79,758,680 bytes；內容commit b199216），含18支影片、60 PNG、23 JPG、離線互動頁與CSV／JSON。[上傳回讀紀錄](../results/cloud_upload_2026-11-18_demo_v2.json)。解壓開啟 results/demo/index.html；新精華影片名稱含 `_highlight_short`，數字對應各自的片段摘要。

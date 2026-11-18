@@ -1,0 +1,24 @@
+{
+  "local_path": "/home/e114/Desktop/gemo3d_demo_v2_2026-11-18_b199216.zip",
+  "bytes": 79758680,
+  "sha256": "889c1ce1fa51f8d96e59d1ab6b582fdf77601824ce315945a69119b0a99817bb",
+  "content_commit": "b199216da6d119d1610d30af31c03385cca6112a",
+  "entries": 202,
+  "zip_integrity": "passed",
+  "uploaded_at_utc": "2026-11-18T09:04:28.740800+00:00",
+  "drive_file_id": "1Cgbtkw47FfzurnFNdHKa9XPaHhx1RqnX",
+  "drive_folder_id": "1KhSc-MnMtK0IDHQUKcLMGUAKOs2ynonz",
+  "url": "https://drive.google.com/file/d/1Cgbtkw47FfzurnFNdHKa9XPaHhx1RqnX/view?usp=drivesdk",
+  "remote_metadata": {
+    "name": "gemo3d_demo_v2_2026-11-18_b199216.zip",
+    "size": 79758680
+  },
+  "verification": {
+    "zip_integrity": "passed",
+    "local_sha256": "computed",
+    "remote_name_size_parent": "matched",
+    "remote_checksum": "not returned; not verified"
+  },
+  "permissions": "Unchanged; existing folder sharing; permission visibility not returned",
+  "previous_version": "results/cloud_upload_2026-11-18_demo.json"
+}

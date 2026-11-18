@@ -89,3 +89,7 @@ results/demo/<代號>/
 ## v2 呈現補強
 
 已重新查閱八個參考頁，見[參考／A–M對照](DEMO_REFERENCE_REVIEW.md)。G-G1互動BEV／可旋轉3D框可用；每個主影片下方曲線可點擊跳至來源影格。6支 `_highlight_short.mp4` 才是真正固定3–13秒剪輯（加2秒片段數據卡），各有獨立CSV／摘要；原12秒版是整段加速。`results/demo/print/`有6張四幀橫排圖。18支影片已驗證；此互動預覽尚未部署正式網站。
+
+### 最新v2下載
+
+[互動素材v2 ZIP](https://drive.google.com/file/d/1Cgbtkw47FfzurnFNdHKa9XPaHhx1RqnX/view?usp=drivesdk)（79,758,680 bytes；內容commit b199216），含18支影片、60 PNG、23 JPG、離線互動頁與CSV／JSON。[上傳回讀紀錄](../results/cloud_upload_2026-11-18_demo_v2.json)。解壓開啟 results/demo/index.html；新精華影片名稱含 `_highlight_short`，數字對應各自的片段摘要。

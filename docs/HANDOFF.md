@@ -9,7 +9,7 @@
 - 新精華 `*_highlight_short.mp4` 是固定3–13秒＋2秒片段卡；只可引用相應 `*_highlight_summary.json` 的數字，不能拿全199幀摘要冒充片段數據。
 - build_demo_highlights.py處理剪輯，build_demo_catalog.py自動呼叫enhance_demo_catalog.py。勿直接反覆enhance；先重建base。demo_interactions.js是來源，results/demo/interactions.js為複本。
 - 互動以frame_mapping查來源幀，seek採輸出幀中心防止時間量化錯前一幀；缺值保持null。互動與影片驗證紀錄分開保存，manifest排除這兩份後生成驗證報告。
-- 18支影片、60 PNG、23 JPG；G-G1可用，正式跨方法排行榜、多情境捕捉仍未完成。雲端v2上傳收據另附，不能覆寫v1。
+- 18支影片、60 PNG、23 JPG；G-G1可用，正式跨方法排行榜、多情境捕捉仍未完成。[v2雲端ZIP](https://drive.google.com/file/d/1Cgbtkw47FfzurnFNdHKa9XPaHhx1RqnX/view?usp=drivesdk)／[收據](../results/cloud_upload_2026-11-18_demo_v2.json)已驗證；內容commit b199216，79,758,680 bytes，保留v1。
 
 ## 2026-11-18 v1交接：Demo 素材
 

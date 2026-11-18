@@ -8,7 +8,7 @@
 - **驗證**：18支影片完整解碼與CSV摘要驗算通過；離線file:// Chromium互動測試通過，包括影格100定位、片尾、方法／視角切換、排序、前後拖曳與七步切換。[影片驗證](results/demo/validation.json)／[互動驗證](results/demo/interaction_validation.json)。
 - 數據與限制不變：原論文165來源、追車視角、多情境、360°原始高度、真實連續序列仍缺。這次新增呈現方式與片段統計，沒有新模型推論，也尚未部署網站。
 
-重建順序：`python build_demo_highlights.py` → `python build_demo_catalog.py` → `python validate_demo_assets.py`；互動測試 `node validate_demo_interactions.cjs`。新版雲端收據於上傳後另行記錄，保留v1快照。
+重建順序：`python build_demo_highlights.py` → `python build_demo_catalog.py` → `python validate_demo_assets.py`；互動測試 `node validate_demo_interactions.cjs`。**v2已上傳**：[下載ZIP](https://drive.google.com/file/d/1Cgbtkw47FfzurnFNdHKa9XPaHhx1RqnX/view?usp=drivesdk)，79,758,680 bytes，內容commit `b199216`。[上傳收據](results/cloud_upload_2026-11-18_demo_v2.json)。ZIP完整性、本機SHA-256與Drive回讀大小／檔名／父資料夾已核對；未取得遠端checksum。保留v1快照與既有分享範圍。
 
 ## v1 重點摘要｜Demo 素材（2026-11-18）
 
