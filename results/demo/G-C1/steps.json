@@ -1,0 +1,77 @@
+[
+  {
+    "frame": "000043",
+    "pred_id": 0,
+    "gt_z_m": 29.957689,
+    "bbox": [
+      483.7008056640625,
+      176.11172485351562,
+      539.9789428710938,
+      214.1964874267578
+    ],
+    "vehicle_type": "sedan",
+    "vehicle_type_source": "forced sedan",
+    "model_observation_angle_deg": 6.53306478521705,
+    "z_raw_m": 28.6267628058154,
+    "ratio": 1.0453424214860534,
+    "z_corr_m": 29.924769550737956,
+    "z_final_before_txt_rounding_m": 29.924769550737956,
+    "z_final_txt_m": 29.92,
+    "dimensions_hwl": [
+      1.52,
+      1.64,
+      3.86
+    ],
+    "note": "ratio = 1-comp_final/z_est; comp_final is meters. z_corr=z_est-comp_final; final includes refinement. No classifier accuracy claim."
+  },
+  {
+    "frame": "000110",
+    "pred_id": 0,
+    "gt_z_m": 19.974687,
+    "bbox": [
+      415.7789306640625,
+      178.05235290527344,
+      507.9586181640625,
+      236.51368713378906
+    ],
+    "vehicle_type": "sedan",
+    "vehicle_type_source": "forced sedan",
+    "model_observation_angle_deg": 11.53957295626887,
+    "z_raw_m": 18.648966519279554,
+    "ratio": 1.0712074195635382,
+    "z_corr_m": 19.976911302644268,
+    "z_final_before_txt_rounding_m": 19.976911302644268,
+    "z_final_txt_m": 19.98,
+    "dimensions_hwl": [
+      1.52,
+      1.64,
+      3.86
+    ],
+    "note": "ratio = 1-comp_final/z_est; comp_final is meters. z_corr=z_est-comp_final; final includes refinement. No classifier accuracy claim."
+  },
+  {
+    "frame": "000170",
+    "pred_id": 0,
+    "gt_z_m": 10.082185,
+    "bbox": [
+      181.08457946777344,
+      183.51036071777344,
+      425.4820556640625,
+      310.5
+    ],
+    "vehicle_type": "sedan",
+    "vehicle_type_source": "forced sedan",
+    "model_observation_angle_deg": 16.10741905806583,
+    "z_raw_m": 8.585294602475416,
+    "ratio": 1.1981122296630997,
+    "z_corr_m": 10.286146458486396,
+    "z_final_before_txt_rounding_m": 10.286146458486396,
+    "z_final_txt_m": 10.29,
+    "dimensions_hwl": [
+      1.52,
+      1.64,
+      3.86
+    ],
+    "note": "ratio = 1-comp_final/z_est; comp_final is meters. z_corr=z_est-comp_final; final includes refinement. No classifier accuracy claim."
+  }
+]

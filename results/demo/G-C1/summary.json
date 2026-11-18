@@ -1,0 +1,40 @@
+{
+  "asset": "G-C1",
+  "methods": [
+    {
+      "method": "F",
+      "frames": 3,
+      "predictions": 3,
+      "gt": 3,
+      "matches": 3,
+      "unmatched_predictions": 0,
+      "unmatched_gt": 0,
+      "depth_rmse_m": 0.12197781617299525,
+      "depth_mae_m": 0.08360566666666536,
+      "center_rmse_m": 0.13293240352901053,
+      "center_mean_m": 0.10099610258789464,
+      "gt_depth_range_m": [
+        10.082185,
+        29.957689
+      ]
+    }
+  ],
+  "limitations": "Near/mid/far front-camera examples only; oblique-view coverage remains missing. Vehicle type is FORCED sedan, not a measured classifier decision. Intermediate values are full-F pred_meta from the SAME run; final Z includes tightfit and can differ from Z_corr. Core architecture diagram task C remains skipped.",
+  "matching": "class-aware greedy one-to-one detection bbox IoU >= 0.5; no error filtering",
+  "playback": "Offline resampled playback, 30 fps; 16s data + 2s summary. Short: same source frames over 10s + 2s summary. Not inference/capture FPS.",
+  "dataset": "/home/e114/KITTI_ROOT/sed_lincoln_fr_T1R8/data/KITTIDataset_Carla/training",
+  "source_frames": [
+    "000043",
+    "000110",
+    "000170"
+  ],
+  "source_results": "results/controlled_20261116",
+  "source_commit": "dca5aa6",
+  "effective_dimensions_hwl_m": [
+    1.52,
+    1.64,
+    3.86
+  ],
+  "pinhole_height_m": 1.511,
+  "capture_note": "Dataset metadata has non-increasing timestamps/simulator frame IDs at 000091→000092, 000094→000095, 000097→000098. Ordered image IDs do not prove strict temporal synchronization."
+}

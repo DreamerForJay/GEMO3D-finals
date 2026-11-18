@@ -1,0 +1,12 @@
+{
+  "status": "partial_model_grid_only",
+  "source": "/home/e114/Desktop/mono3d/GEMO3D/comp/sed_rank_ratio_linear_model.pkl",
+  "source_sha256": "3673cebe3e69eb9d74aa7c3886867d62749de6daabceefadcfb0934e3fd70e9d",
+  "angle_range_deg": [
+    0.0,
+    180.0
+  ],
+  "rows": 7200,
+  "limitation": "Stored 0-180 degree model grid, NOT a new 0-360 capture. Raw h2D/h3D projection samples unavailable. No raw-height curve or extrapolated second half fabricated.",
+  "capture_note": "Dataset metadata has non-increasing timestamps/simulator frame IDs at 000091→000092, 000094→000095, 000097→000098. Ordered image IDs do not prove strict temporal synchronization."
+}

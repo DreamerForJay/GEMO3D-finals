@@ -1,8 +1,19 @@
 # AI 協作交接
 
-更新日期：2026-11-16（Asia/Taipei）。數值與證據以 [RESULTS.md](../RESULTS.md) 為準。
+更新日期：2026-11-18（Asia/Taipei）。數值與證據以 [RESULTS.md](../RESULTS.md) 為準。
 
-## 最新接手重點
+## 2026-11-18 最新交接：Demo 素材
+
+先讀 [素材總表](../results/demo/README.md) 和 [catalog.json](../results/demo/catalog.json)。12 支 MP4、54 PNG、23 JPG、逐幀 CSV／JSON、離線 index.html 已產生並驗證。重建腳本 build_demo_assets.py → build_demo_catalog.py → validate_demo_assets.py。
+
+- 可直接使用 G-A1、G-F1、G-M1；G-E1須保留「歷史設定未核實／非公平比較」標示。
+- G-C1強制sedan，不能呈現為分類器成功；G-F1為A→D而非全流程；計時100幀的RMSE與199幀F不同。
+- 捕捉 metadata 在000091→000092、000094→000095、000097→000098有重複時間或幀號，嚴格同步未證實。不能把側視audit相機標成追車。
+- G-H1原165排行榜需原始同資料同設定證據；多情境／pitch／360原始高度／KITTI時序仍缺。後續需新增獨立捕捉或取得來源，不能改動共享CARLA世界。
+- 當前基於上游4bf3a08；原推論證據dca5aa6。所有輸出是既有數據重製，不是新一輪推論。整體架構圖仍跳過。
+- 本機未追蹤PitchLab與tests保持原狀，不屬此包。
+
+## 2026-11-16 接手重點
 
 15組×199張新控制推論與4組×100張分段計時已完成並同步；先讀RESULTS.md頂部摘要、results/ablation.md、results/historical_165_audit.md。可執行工作已推進到實際測量，不再停在三張公式例子。
 

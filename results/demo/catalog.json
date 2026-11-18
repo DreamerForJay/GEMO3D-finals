@@ -1,0 +1,232 @@
+[
+  {
+    "code": "G-A1",
+    "status": "ready",
+    "note": "18 秒 Teaser＋12 秒版；完整 F 的 199 幀、GT、BEV、誤差曲線。",
+    "files": [
+      "G-A1/README.md",
+      "G-A1/geometry.json",
+      "G-A1/keyframes/000000.png",
+      "G-A1/keyframes/000066.png",
+      "G-A1/keyframes/000132.png",
+      "G-A1/keyframes/000198.png",
+      "G-A1/per_frame.csv",
+      "G-A1/poster.jpg",
+      "G-A1/summary.json",
+      "G-A1/video.mp4",
+      "G-A1/video_frame_mapping.csv",
+      "G-A1/video_short.mp4"
+    ]
+  },
+  {
+    "code": "G-B1",
+    "status": "partial",
+    "note": "三個既有視角同 ID 配對；缺追車視角，3 處時間／幀號異常，嚴格同步未驗證。",
+    "files": [
+      "G-B1/README.md",
+      "G-B1/camera_settings.json",
+      "G-B1/capture_anomalies.json",
+      "G-B1/geometry.json",
+      "G-B1/keyframes/000000.png",
+      "G-B1/keyframes/000066.png",
+      "G-B1/keyframes/000132.png",
+      "G-B1/keyframes/000198.png",
+      "G-B1/per_frame.csv",
+      "G-B1/poster.jpg",
+      "G-B1/sensor_frames.csv",
+      "G-B1/summary.json",
+      "G-B1/video.mp4",
+      "G-B1/video_frame_mapping.csv",
+      "G-B1/video_short.mp4"
+    ]
+  },
+  {
+    "code": "G-C1",
+    "status": "partial",
+    "note": "近中遠三張、各七步 PNG＋JSON；目前只有前視，缺斜側；sedan 為強制設定而非分類結果。",
+    "files": [
+      "G-C1/000043/step_1.png",
+      "G-C1/000043/step_2.png",
+      "G-C1/000043/step_3.png",
+      "G-C1/000043/step_4.png",
+      "G-C1/000043/step_5.png",
+      "G-C1/000043/step_6.png",
+      "G-C1/000043/step_7.png",
+      "G-C1/000110/step_1.png",
+      "G-C1/000110/step_2.png",
+      "G-C1/000110/step_3.png",
+      "G-C1/000110/step_4.png",
+      "G-C1/000110/step_5.png",
+      "G-C1/000110/step_6.png",
+      "G-C1/000110/step_7.png",
+      "G-C1/000170/step_1.png",
+      "G-C1/000170/step_2.png",
+      "G-C1/000170/step_3.png",
+      "G-C1/000170/step_4.png",
+      "G-C1/000170/step_5.png",
+      "G-C1/000170/step_6.png",
+      "G-C1/000170/step_7.png",
+      "G-C1/README.md",
+      "G-C1/geometry.json",
+      "G-C1/per_frame.csv",
+      "G-C1/steps.json",
+      "G-C1/summary.json"
+    ]
+  },
+  {
+    "code": "G-E1",
+    "status": "audit_preview",
+    "note": "四方法前視／BEV 各 18 秒＋12 秒版；歷史基準設定未核實，禁止作公平排行榜。",
+    "files": [
+      "G-E1/README.md",
+      "G-E1/bev.mp4",
+      "G-E1/bev_frame_mapping.csv",
+      "G-E1/bev_short.mp4",
+      "G-E1/geometry.json",
+      "G-E1/keyframes/000000.png",
+      "G-E1/keyframes/000066.png",
+      "G-E1/keyframes/000132.png",
+      "G-E1/keyframes/000198.png",
+      "G-E1/per_frame.csv",
+      "G-E1/poster.jpg",
+      "G-E1/summary.json",
+      "G-E1/video.mp4",
+      "G-E1/video_frame_mapping.csv",
+      "G-E1/video_short.mp4"
+    ]
+  },
+  {
+    "code": "G-F1",
+    "status": "ready",
+    "note": "6 組同尺寸成對 PNG、影片與逐幀 CSV；A→D 只改補償，非完整 F。",
+    "files": [
+      "G-F1/000043_after.png",
+      "G-F1/000043_before.png",
+      "G-F1/000070_after.png",
+      "G-F1/000070_before.png",
+      "G-F1/000100_after.png",
+      "G-F1/000100_before.png",
+      "G-F1/000130_after.png",
+      "G-F1/000130_before.png",
+      "G-F1/000150_after.png",
+      "G-F1/000150_before.png",
+      "G-F1/000170_after.png",
+      "G-F1/000170_before.png",
+      "G-F1/README.md",
+      "G-F1/geometry.json",
+      "G-F1/keyframes/000000.png",
+      "G-F1/keyframes/000066.png",
+      "G-F1/keyframes/000132.png",
+      "G-F1/keyframes/000198.png",
+      "G-F1/per_frame.csv",
+      "G-F1/poster.jpg",
+      "G-F1/slider_pairs.json",
+      "G-F1/summary.json",
+      "G-F1/video.mp4",
+      "G-F1/video_frame_mapping.csv",
+      "G-F1/video_short.mp4"
+    ]
+  },
+  {
+    "code": "G-D1",
+    "status": "partial",
+    "note": "7200 筆模型比例網格可供互動圖；缺原始高度資料與 360° 實測掃描。",
+    "files": [
+      "G-D1/README.md",
+      "G-D1/model_ratio_grid.csv",
+      "G-D1/summary.json"
+    ]
+  },
+  {
+    "code": "G-H1",
+    "status": "blocked",
+    "note": "舊 165 筆來源混不同 GT，不能製成可信排行榜；見 historical_165_audit.md。",
+    "files": []
+  },
+  {
+    "code": "G-I1",
+    "status": "partial",
+    "note": "深度分箱、逐幀觀測角與誤差 CSV、分析 PNG；缺受控 pitch 敏感度。",
+    "files": [
+      "G-I1/README.md",
+      "G-I1/angle_errors.csv",
+      "G-I1/depth_bins.csv",
+      "G-I1/depth_bins.png",
+      "G-I1/geometry.json",
+      "G-I1/per_frame.csv",
+      "G-I1/summary.json"
+    ]
+  },
+  {
+    "code": "G-M1",
+    "status": "ready",
+    "note": "100 幀實際計時及同次預測；RTX 3060 共享，89.241ms／11.206fps；影片為離線播放。",
+    "files": [
+      "G-M1/README.md",
+      "G-M1/geometry.json",
+      "G-M1/keyframes/000000.png",
+      "G-M1/keyframes/000033.png",
+      "G-M1/keyframes/000066.png",
+      "G-M1/keyframes/000099.png",
+      "G-M1/per_frame.csv",
+      "G-M1/poster.jpg",
+      "G-M1/summary.json",
+      "G-M1/timing.csv",
+      "G-M1/timing_provenance.json",
+      "G-M1/video.mp4",
+      "G-M1/video_frame_mapping.csv",
+      "G-M1/video_short.mp4"
+    ]
+  },
+  {
+    "code": "G-K1",
+    "status": "partial",
+    "note": "15 例失敗圖＋3 張 tightfit 對照。強制 SUV 是人工干預，不是真實分類器誤判。",
+    "files": [
+      "G-K1/README.md",
+      "G-K1/cases.csv",
+      "G-K1/far_000002.jpg",
+      "G-K1/far_000003.jpg",
+      "G-K1/far_000008.jpg",
+      "G-K1/forced_wrong_suv_000075.jpg",
+      "G-K1/forced_wrong_suv_000076.jpg",
+      "G-K1/forced_wrong_suv_000079.jpg",
+      "G-K1/occluded_000033.jpg",
+      "G-K1/occluded_000059.jpg",
+      "G-K1/occluded_000061.jpg",
+      "G-K1/tightfit_compare_000013.jpg",
+      "G-K1/tightfit_compare_000015.jpg",
+      "G-K1/tightfit_compare_000016.jpg",
+      "G-K1/tightfit_iou_up_3d_worse_000013.jpg",
+      "G-K1/tightfit_iou_up_3d_worse_000015.jpg",
+      "G-K1/tightfit_iou_up_3d_worse_000016.jpg",
+      "G-K1/truncated_000015.jpg",
+      "G-K1/truncated_000025.jpg",
+      "G-K1/truncated_000050.jpg"
+    ]
+  },
+  {
+    "code": "G-J1",
+    "status": "blocked",
+    "note": "缺可核實 S1/S2/S4/S5 場景腳本與新捕捉；單一 approach 不冒充四情境。",
+    "files": []
+  },
+  {
+    "code": "G-J2",
+    "status": "blocked",
+    "note": "缺 S3/S6/S7/S8–S10 場景捕捉。",
+    "files": []
+  },
+  {
+    "code": "G-L1",
+    "status": "blocked",
+    "note": "缺路口監控捕捉與數位孿生對應資料。",
+    "files": []
+  },
+  {
+    "code": "G-R1",
+    "status": "blocked",
+    "note": "缺有時間資訊的真實 KITTI raw/tracking 連續序列。",
+    "files": []
+  }
+]

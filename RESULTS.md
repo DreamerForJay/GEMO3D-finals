@@ -1,4 +1,27 @@
-# 決賽實驗更新 — 2026-11-16
+# 決賽實驗與 Demo 更新 — 2026-11-18
+
+## 最新重點摘要｜Demo 素材（2026-11-18）
+
+- **已製作 12 支影片、54 張 PNG、23 張 JPG**：Teaser、相機視角、四方法查核預覽、補償前後、同次計時，另含 21 張方法步驟圖、分析與失敗案例。[素材入口](results/demo/README.md)／[網站整合 JSON](results/demo/catalog.json)。解壓後開啟 `results/demo/index.html` 即可離線播放、拖曳對照及切換步驟。
+- **既有實驗輸出重製成可追溯素材，沒有新推論**：新控制 A→D 深度 RMSE 1.694→0.762m；完整 F 1.305m。逐幀 CSV 保留漏檢與未配對預測；片尾數據只計配對物件，並報漏檢數。
+- **計時影片使用同次 100 幀預測**：共享 RTX 3060，均值 89.241ms／11.206fps；這 100 幀深度 RMSE 1.773m（88 配對），不可與 199 幀 F 的 1.305m 混稱。所有影片的 30fps 是離線重取樣播放，不是推論速度。
+- **不將未核實資料包裝成完成**：四方法僅查核預覽；缺第三人稱追車、斜側步驟、360°原始高度、多情境與真實連續序列。舊165樣本排行榜仍不可信。三處 metadata 時間／幀號重複，不能宣稱嚴格時間同步。
+- **驗證通過**：12 支影片完整解碼（完整版540幀／18s、短版360幀／12s），1080p／H.264／yuv420p／30fps，單檔≤25MB；逐幀映射、摘要重算、成對圖片尺寸及141份素材雜湊通過。[驗證紀錄](results/demo/validation.json)
+
+### 來源與重建
+
+需求版本 `4bf3a08`（最新 DEMO_ASSETS）；推論來源 `dca5aa6` 所記錄之2026-11-16控制結果、對應 timing_production_io 輸出。原始影像／標註／校正／相機metadata／三視角及中間CSV雜湊見 [source_hashes.json](results/demo/source_hashes.json)。相機異常為000091→000092、000094→000095、000097→000098，保留原始順序，沒有刪除或改寫來改善數據。
+
+```bash
+/home/e114/anaconda3/envs/mono3d/bin/python build_demo_assets.py
+/home/e114/anaconda3/envs/mono3d/bin/python build_demo_catalog.py
+/home/e114/anaconda3/envs/mono3d/bin/python validate_demo_assets.py
+```
+
+原始來源路徑與模型／權重雜湊在 `results/controlled_20261116/manifest.json`。G-C1 中 sedan 為強制設定；r=1-comp_final/z_est，comp_final單位是公尺，Z_corr與包含tightfit的最終深度分開記錄。G-F1比較A與D，兩者均不含ground/tightfit，不能標成完整F。G-D1只提供既有模型0–180°網格7200筆，不虛構原始高度或另半圈。G-K1的強制SUV不是實際分類器誤判。
+
+雲端版本包將在驗證後建立；上傳成功與 metadata 核對會另增不可變上傳紀錄。未上傳模型權重、完整資料集或本機 PitchLab 附件。未部署網站、未啟用背景自動同步。
+
 
 ## 最新重點摘要｜2026-11-16
 

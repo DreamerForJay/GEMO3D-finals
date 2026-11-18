@@ -1,0 +1,206 @@
+{
+  "videos": [
+    {
+      "file": "G-A1/video.mp4",
+      "frames": 540,
+      "fps": 30.0,
+      "width": 1920.0,
+      "height": 1080.0,
+      "bytes": 1631804,
+      "codec": "h264",
+      "pixel_format": "yuv420p"
+    },
+    {
+      "file": "G-A1/video_short.mp4",
+      "frames": 360,
+      "fps": 30.0,
+      "width": 1920.0,
+      "height": 1080.0,
+      "bytes": 1427029,
+      "codec": "h264",
+      "pixel_format": "yuv420p"
+    },
+    {
+      "file": "G-B1/video.mp4",
+      "frames": 540,
+      "fps": 30.0,
+      "width": 1920.0,
+      "height": 1080.0,
+      "bytes": 1825570,
+      "codec": "h264",
+      "pixel_format": "yuv420p"
+    },
+    {
+      "file": "G-B1/video_short.mp4",
+      "frames": 360,
+      "fps": 30.0,
+      "width": 1920.0,
+      "height": 1080.0,
+      "bytes": 1615746,
+      "codec": "h264",
+      "pixel_format": "yuv420p"
+    },
+    {
+      "file": "G-E1/bev.mp4",
+      "frames": 540,
+      "fps": 30.0,
+      "width": 1920.0,
+      "height": 1080.0,
+      "bytes": 652522,
+      "codec": "h264",
+      "pixel_format": "yuv420p"
+    },
+    {
+      "file": "G-E1/bev_short.mp4",
+      "frames": 360,
+      "fps": 30.0,
+      "width": 1920.0,
+      "height": 1080.0,
+      "bytes": 577369,
+      "codec": "h264",
+      "pixel_format": "yuv420p"
+    },
+    {
+      "file": "G-E1/video.mp4",
+      "frames": 540,
+      "fps": 30.0,
+      "width": 1920.0,
+      "height": 1080.0,
+      "bytes": 3780019,
+      "codec": "h264",
+      "pixel_format": "yuv420p"
+    },
+    {
+      "file": "G-E1/video_short.mp4",
+      "frames": 360,
+      "fps": 30.0,
+      "width": 1920.0,
+      "height": 1080.0,
+      "bytes": 3321509,
+      "codec": "h264",
+      "pixel_format": "yuv420p"
+    },
+    {
+      "file": "G-F1/video.mp4",
+      "frames": 540,
+      "fps": 30.0,
+      "width": 1920.0,
+      "height": 1080.0,
+      "bytes": 1948855,
+      "codec": "h264",
+      "pixel_format": "yuv420p"
+    },
+    {
+      "file": "G-F1/video_short.mp4",
+      "frames": 360,
+      "fps": 30.0,
+      "width": 1920.0,
+      "height": 1080.0,
+      "bytes": 1728462,
+      "codec": "h264",
+      "pixel_format": "yuv420p"
+    },
+    {
+      "file": "G-M1/video.mp4",
+      "frames": 540,
+      "fps": 30.0,
+      "width": 1920.0,
+      "height": 1080.0,
+      "bytes": 1174930,
+      "codec": "h264",
+      "pixel_format": "yuv420p"
+    },
+    {
+      "file": "G-M1/video_short.mp4",
+      "frames": 360,
+      "fps": 30.0,
+      "width": 1920.0,
+      "height": 1080.0,
+      "bytes": 1009663,
+      "codec": "h264",
+      "pixel_format": "yuv420p"
+    }
+  ],
+  "metrics": [
+    {
+      "asset": "G-E1",
+      "method": "historical_monodetr",
+      "matches": 80,
+      "depth_rmse_m": 0.6954985683755756
+    },
+    {
+      "asset": "G-E1",
+      "method": "historical_monodgp",
+      "matches": 115,
+      "depth_rmse_m": 4.509807386170092
+    },
+    {
+      "asset": "G-E1",
+      "method": "historical_monoamnet",
+      "matches": 143,
+      "depth_rmse_m": 2.9582731321366644
+    },
+    {
+      "asset": "G-E1",
+      "method": "F",
+      "matches": 165,
+      "depth_rmse_m": 1.3050770011812327
+    },
+    {
+      "asset": "G-I1",
+      "method": "A",
+      "matches": 165,
+      "depth_rmse_m": 1.6935138561081755
+    },
+    {
+      "asset": "G-I1",
+      "method": "D",
+      "matches": 165,
+      "depth_rmse_m": 0.7621694566091965
+    },
+    {
+      "asset": "G-I1",
+      "method": "F",
+      "matches": 165,
+      "depth_rmse_m": 1.3050770011812327
+    },
+    {
+      "asset": "G-F1",
+      "method": "A",
+      "matches": 165,
+      "depth_rmse_m": 1.6935138561081755
+    },
+    {
+      "asset": "G-F1",
+      "method": "D",
+      "matches": 165,
+      "depth_rmse_m": 0.7621694566091965
+    },
+    {
+      "asset": "G-C1",
+      "method": "F",
+      "matches": 3,
+      "depth_rmse_m": 0.12197781617299525
+    },
+    {
+      "asset": "G-A1",
+      "method": "F",
+      "matches": 165,
+      "depth_rmse_m": 1.3050770011812327
+    },
+    {
+      "asset": "G-M1",
+      "method": "timing",
+      "matches": 88,
+      "depth_rmse_m": 1.7727898756591258
+    },
+    {
+      "asset": "G-B1",
+      "method": "F",
+      "matches": 165,
+      "depth_rmse_m": 1.3050770011812327
+    }
+  ],
+  "files_checked": 141,
+  "status": "passed"
+}
