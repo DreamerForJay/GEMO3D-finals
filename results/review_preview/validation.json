@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checks": [
+    "source summary exact match",
+    "metric switch",
+    "tab visibility",
+    "scenario details",
+    "camera diagram",
+    "English yaw video playback",
+    "pause on leaving video",
+    "390px no horizontal overflow all tabs",
+    "16 linked clips present",
+    "no runtime errors"
+  ]
+}

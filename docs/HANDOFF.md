@@ -1,5 +1,10 @@
 # AI 協作交接
 
+## 最新交接：展示審閱預覽
+
+使用者要求先看頁面再決定正式整合。新增results/review_preview/index.html、app.js、data.js，媒體相對引用../bilingual_demo/。勿直接部署正式網站。8項補拍建議不是已完成任務；4視角圖為概念，模型仍只用前視。data.js由現有summary.json產生，沒有重新推論。validate_review_preview.cjs已通過，截圖preview.png。使用者回饋後再整理正式頁內容；未追蹤PitchLab與tests保持不動。
+
+
 > **中英文大字版已上傳**：[下載42.18MB素材包](https://drive.google.com/file/d/1vmbj7Oe3oZ_O9CdCQ_GumZJSS_IOVH9T/view?usp=drivesdk)（28支影片／離線頁）。內容commit `04960df`，42,182,897 bytes，ZIP、本機SHA256與Drive回讀檔名／大小／資料夾已核對；遠端checksum未提供。播放可離線，重建需完整專案與原始資料。舊版保留。
 
 ## 最新交接：中英文大字版
