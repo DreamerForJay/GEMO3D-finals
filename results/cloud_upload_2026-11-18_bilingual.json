@@ -1,0 +1,16 @@
+{
+  "file": "gemo3d_bilingual_2026-11-18_04960df.zip",
+  "content_commit": "04960df7cc8bbeb55b07281baedf7a471aeae675",
+  "bytes": 42182897,
+  "local_sha256": "12833c69daf8ad85bec7511847ebb7b8fede3989c385f8557aad09d7ada63bc1",
+  "drive_id": "1vmbj7Oe3oZ_O9CdCQ_GumZJSS_IOVH9T",
+  "url": "https://drive.google.com/file/d/1vmbj7Oe3oZ_O9CdCQ_GumZJSS_IOVH9T/view?usp=drivesdk",
+  "parent_id": "1KhSc-MnMtK0IDHQUKcLMGUAKOs2ynonz",
+  "verification": {
+    "zip": "passed",
+    "remote_name_size_parent": "matched",
+    "remote_checksum": "not returned",
+    "sharing": "unchanged; access not verified"
+  },
+  "scope": "28 videos, offline viewer, recorded pairs and separate synthetic geometry; source scripts require full project checkout and original local data. Not a self-contained inference runtime."
+}

@@ -1,5 +1,7 @@
 # 決賽實驗與 Demo 更新 — 2026-11-18
 
+> **中英文大字版已上傳**：[下載42.18MB素材包](https://drive.google.com/file/d/1vmbj7Oe3oZ_O9CdCQ_GumZJSS_IOVH9T/view?usp=drivesdk)（28支影片／離線頁）。內容commit `04960df`，42,182,897 bytes，ZIP、本機SHA256與Drive回讀檔名／大小／資料夾已核對；遠端checksum未提供。播放可離線，重建需完整專案與原始資料。舊版保留。
+
 ## 2026-11-18 大字中英文版與朝向機制
 
 - 新增 `results/bilingual_demo/`：原12種素材各中／英文（24支10秒），數值54px、獨立142px標頭；綠虛線GT／紅實線預測，底圖及控制結果不變。另有朝向支撐點／深度偏差兩片各兩語（4支12秒），一次只解釋一個環節。

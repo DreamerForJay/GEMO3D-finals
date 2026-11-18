@@ -1,5 +1,7 @@
 # AI 協作交接
 
+> **中英文大字版已上傳**：[下載42.18MB素材包](https://drive.google.com/file/d/1vmbj7Oe3oZ_O9CdCQ_GumZJSS_IOVH9T/view?usp=drivesdk)（28支影片／離線頁）。內容commit `04960df`，42,182,897 bytes，ZIP、本機SHA256與Drive回讀檔名／大小／資料夾已核對；遠端checksum未提供。播放可離線，重建需完整專案與原始資料。舊版保留。
+
 ## 最新交接：中英文大字版
 
 使用 `results/bilingual_demo/index.html`，28片分開選語言／主題。build_bilingual_demo.py、build_bilingual_catalog.py生成；validate_bilingual_demo.py、validate_bilingual_page.cjs驗證。原clean不覆蓋。朝向影片為固定Z10m長方體精確投影，不是實測旋轉；h_ideal=fyH/Z不冒稱已核實原Blender h3D,proj。黃支撐點、青車頭、方向盤；不能把合成yaw_geometry.csv混入實測CSV。原轉角實測與訓練分母限制仍在。

@@ -1,5 +1,7 @@
 # GEMO3D 決賽補充實驗（實驗室伺服器執行用）
 
+> **中英文大字版已上傳**：[下載42.18MB素材包](https://drive.google.com/file/d/1vmbj7Oe3oZ_O9CdCQ_GumZJSS_IOVH9T/view?usp=drivesdk)（28支影片／離線頁）。內容commit `04960df`，42,182,897 bytes，ZIP、本機SHA256與Drive回讀檔名／大小／資料夾已核對；遠端checksum未提供。播放可離線，重建需完整專案與原始資料。舊版保留。
+
 > **最新大字中英文版**：[28支素材與定義](results/bilingual_demo/README.md)，離線開啟 `results/bilingual_demo/index.html`。朝向支撐點與針孔偏差分兩片，明示幾何示意；實測片數據不變。
 
 
