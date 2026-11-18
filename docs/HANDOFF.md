@@ -1,5 +1,7 @@
 # AI 協作交接
 
+> **獨立審閱頁**：[下載含影片的離線預覽包](https://drive.google.com/file/d/1K3ZlBqmFOnGXu4FsNobm9I9f03OeqZHk/view?usp=drivesdk)，解壓開啟 `results/review_preview/index.html`。41,964,267 bytes，內容commit `ea21285`；ZIP、本機SHA256及Drive回讀檔名／大小／資料夾已驗證，遠端checksum未回傳。正式網站未變更。
+
 ## 最新交接：展示審閱預覽
 
 使用者要求先看頁面再決定正式整合。新增results/review_preview/index.html、app.js、data.js，媒體相對引用../bilingual_demo/。勿直接部署正式網站。8項補拍建議不是已完成任務；4視角圖為概念，模型仍只用前視。data.js由現有summary.json產生，沒有重新推論。validate_review_preview.cjs已通過，截圖preview.png。使用者回饋後再整理正式頁內容；未追蹤PitchLab與tests保持不動。

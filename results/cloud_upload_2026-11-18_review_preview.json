@@ -1,0 +1,17 @@
+{
+  "file": "gemo3d_review_preview_2026-11-18_ea21285.zip",
+  "content_commit": "ea21285111aaef3ed24aff5178a83a7e747be1be",
+  "bytes": 41964267,
+  "local_sha256": "331f67858fbd06ebf1c04b5fc6bccb4d7b91514444267747382b464da5c5a85e",
+  "drive_id": "1K3ZlBqmFOnGXu4FsNobm9I9f03OeqZHk",
+  "url": "https://drive.google.com/file/d/1K3ZlBqmFOnGXu4FsNobm9I9f03OeqZHk/view?usp=drivesdk",
+  "parent_id": "1KhSc-MnMtK0IDHQUKcLMGUAKOs2ynonz",
+  "verification": {
+    "zip": "passed",
+    "remote_name_size_parent": "matched",
+    "remote_checksum": "not returned",
+    "sharing": "unchanged; access not verified"
+  },
+  "entry": "results/review_preview/index.html",
+  "status": "review only; production website unchanged"
+}

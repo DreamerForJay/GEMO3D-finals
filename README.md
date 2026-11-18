@@ -1,5 +1,7 @@
 # GEMO3D 決賽補充實驗（實驗室伺服器執行用）
 
+> **獨立審閱頁**：[下載含影片的離線預覽包](https://drive.google.com/file/d/1K3ZlBqmFOnGXu4FsNobm9I9f03OeqZHk/view?usp=drivesdk)，解壓開啟 `results/review_preview/index.html`。41,964,267 bytes，內容commit `ea21285`；ZIP、本機SHA256及Drive回讀檔名／大小／資料夾已驗證，遠端checksum未回傳。正式網站未變更。
+
 > **展示審閱頁**：[成果／影片／補拍規劃](results/review_preview/README.md)，入口 `results/review_preview/index.html`。先供使用者檢視，未部署或整合正式網站。
 
 

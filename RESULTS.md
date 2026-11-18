@@ -1,5 +1,7 @@
 # 決賽實驗與 Demo 更新 — 2026-11-18
 
+> **獨立審閱頁**：[下載含影片的離線預覽包](https://drive.google.com/file/d/1K3ZlBqmFOnGXu4FsNobm9I9f03OeqZHk/view?usp=drivesdk)，解壓開啟 `results/review_preview/index.html`。41,964,267 bytes，內容commit `ea21285`；ZIP、本機SHA256及Drive回讀檔名／大小／資料夾已驗證，遠端checksum未回傳。正式網站未變更。
+
 ## 2026-11-18 展示審閱頁
 
 新增results/review_preview/，三分頁：4配置×3指標可切換條圖、8類影片×中英切換、8項補拍建議與4個相機視角概念圖。統計data.js與bilingual_demo/summary.json完全一致，既有影片重用；沒有新增推論或拍攝。待蒐集／合成／實測明確分開。validate_review_preview.cjs驗證來源一致、指標／分頁／情境／相機切換、英文影片播放、離開分頁暫停、手機各頁無橫向溢出。驗證紀錄results/review_preview/validation.json。此為本機離線可用的審閱頁，未改正式網站；等待使用者檢視後再決定整合範圍。
